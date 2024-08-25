@@ -1,0 +1,882 @@
+2023-12-07 02:54:46,121:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-07 02:54:46,121:INFO:[33mPress CTRL+C to quit[0m
+2023-12-07 02:55:06,067:INFO:127.0.0.1 - - [07/Dec/2023 02:55:06] "GET / HTTP/1.1" 200 -
+2023-12-07 02:55:06,187:INFO:127.0.0.1 - - [07/Dec/2023 02:55:06] "GET /get-topics HTTP/1.1" 200 -
+2023-12-07 02:55:09,580:INFO:127.0.0.1 - - [07/Dec/2023 02:55:09] "[33mGET /visualization.html HTTP/1.1[0m" 404 -
+2023-12-07 02:55:58,969:INFO:127.0.0.1 - - [07/Dec/2023 02:55:58] "[33mGET /visualization.html HTTP/1.1[0m" 404 -
+2023-12-07 02:56:01,898:INFO:127.0.0.1 - - [07/Dec/2023 02:56:01] "[33mGET /visualization.html HTTP/1.1[0m" 404 -
+2023-12-07 02:58:14,829:INFO:127.0.0.1 - - [07/Dec/2023 02:58:14] "[33mGET /visualization.html HTTP/1.1[0m" 404 -
+2023-12-07 02:58:51,978:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-07 02:58:51,978:INFO:[33mPress CTRL+C to quit[0m
+2023-12-07 02:58:52,297:INFO:127.0.0.1 - - [07/Dec/2023 02:58:52] "[33mGET /visualization.html HTTP/1.1[0m" 404 -
+2023-12-07 03:00:44,293:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-07 03:00:44,293:INFO:[33mPress CTRL+C to quit[0m
+2023-12-07 03:01:04,610:INFO:127.0.0.1 - - [07/Dec/2023 03:01:04] "[33mGET /visualization.html HTTP/1.1[0m" 404 -
+2023-12-07 03:01:17,852:INFO:127.0.0.1 - - [07/Dec/2023 03:01:17] "[33mGET /visualization.html HTTP/1.1[0m" 404 -
+2023-12-07 03:09:28,546:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-07 03:09:28,546:INFO:[33mPress CTRL+C to quit[0m
+2023-12-07 03:09:31,479:INFO:127.0.0.1 - - [07/Dec/2023 03:09:31] "GET / HTTP/1.1" 200 -
+2023-12-07 03:09:31,613:INFO:127.0.0.1 - - [07/Dec/2023 03:09:31] "GET /get-topics HTTP/1.1" 200 -
+2023-12-07 03:09:33,562:INFO:127.0.0.1 - - [07/Dec/2023 03:09:33] "GET /visualization HTTP/1.1" 200 -
+2023-12-07 03:09:34,852:INFO:127.0.0.1 - - [07/Dec/2023 03:09:34] "GET /get-query-stats HTTP/1.1" 200 -
+2023-12-07 03:10:11,934:INFO:127.0.0.1 - - [07/Dec/2023 03:10:11] "POST /chat HTTP/1.1" 200 -
+2023-12-07 03:10:19,722:INFO:127.0.0.1 - - [07/Dec/2023 03:10:19] "POST /chat HTTP/1.1" 200 -
+2023-12-07 03:10:22,171:INFO:127.0.0.1 - - [07/Dec/2023 03:10:22] "GET /visualization HTTP/1.1" 200 -
+2023-12-07 03:10:22,214:INFO:127.0.0.1 - - [07/Dec/2023 03:10:22] "GET /get-query-stats HTTP/1.1" 200 -
+2023-12-07 03:10:28,958:INFO:127.0.0.1 - - [07/Dec/2023 03:10:28] "GET /visualization HTTP/1.1" 200 -
+2023-12-07 03:10:29,003:INFO:127.0.0.1 - - [07/Dec/2023 03:10:29] "GET /get-query-stats HTTP/1.1" 200 -
+2023-12-07 03:10:38,097:INFO:127.0.0.1 - - [07/Dec/2023 03:10:38] "POST /chat HTTP/1.1" 200 -
+2023-12-07 03:10:46,778:INFO:127.0.0.1 - - [07/Dec/2023 03:10:46] "POST /chat HTTP/1.1" 200 -
+2023-12-07 03:10:47,385:INFO:127.0.0.1 - - [07/Dec/2023 03:10:47] "GET /visualization HTTP/1.1" 200 -
+2023-12-07 03:10:47,455:INFO:127.0.0.1 - - [07/Dec/2023 03:10:47] "GET /get-query-stats HTTP/1.1" 200 -
+2023-12-07 03:15:37,678:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-07 03:15:37,678:INFO:[33mPress CTRL+C to quit[0m
+2023-12-07 03:16:21,047:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-07 03:16:21,047:INFO:[33mPress CTRL+C to quit[0m
+2023-12-07 03:16:24,978:INFO:127.0.0.1 - - [07/Dec/2023 03:16:24] "GET / HTTP/1.1" 200 -
+2023-12-07 03:16:25,136:INFO:127.0.0.1 - - [07/Dec/2023 03:16:25] "GET /get-topics HTTP/1.1" 200 -
+2023-12-07 03:16:36,027:INFO:127.0.0.1 - - [07/Dec/2023 03:16:36] "POST /chat HTTP/1.1" 200 -
+2023-12-07 03:16:41,722:INFO:127.0.0.1 - - [07/Dec/2023 03:16:41] "POST /chat HTTP/1.1" 200 -
+2023-12-07 03:16:44,810:INFO:127.0.0.1 - - [07/Dec/2023 03:16:44] "GET /visualization HTTP/1.1" 200 -
+2023-12-07 03:16:44,891:INFO:127.0.0.1 - - [07/Dec/2023 03:16:44] "GET /get-query-stats HTTP/1.1" 200 -
+2023-12-07 03:16:56,890:INFO:127.0.0.1 - - [07/Dec/2023 03:16:56] "POST /chat HTTP/1.1" 200 -
+2023-12-07 03:17:03,698:INFO:127.0.0.1 - - [07/Dec/2023 03:17:03] "POST /chat HTTP/1.1" 200 -
+2023-12-07 03:17:12,760:INFO:127.0.0.1 - - [07/Dec/2023 03:17:12] "POST /chat HTTP/1.1" 200 -
+2023-12-07 03:17:17,343:INFO:127.0.0.1 - - [07/Dec/2023 03:17:17] "GET /visualization HTTP/1.1" 200 -
+2023-12-07 03:17:17,424:INFO:127.0.0.1 - - [07/Dec/2023 03:17:17] "GET /get-query-stats HTTP/1.1" 200 -
+2023-12-07 03:17:50,449:INFO:127.0.0.1 - - [07/Dec/2023 03:17:50] "POST /chat HTTP/1.1" 200 -
+2023-12-07 03:18:04,827:INFO:127.0.0.1 - - [07/Dec/2023 03:18:04] "GET /visualization HTTP/1.1" 200 -
+2023-12-07 03:18:04,912:INFO:127.0.0.1 - - [07/Dec/2023 03:18:04] "GET /get-query-stats HTTP/1.1" 200 -
+2023-12-07 03:18:28,212:INFO:127.0.0.1 - - [07/Dec/2023 03:18:28] "GET /visualization HTTP/1.1" 200 -
+2023-12-07 03:18:28,278:INFO:127.0.0.1 - - [07/Dec/2023 03:18:28] "GET /get-query-stats HTTP/1.1" 200 -
+2023-12-07 03:18:55,521:INFO:127.0.0.1 - - [07/Dec/2023 03:18:55] "POST /chat HTTP/1.1" 200 -
+2023-12-07 03:18:55,524:INFO:127.0.0.1 - - [07/Dec/2023 03:18:55] "POST /chat HTTP/1.1" 200 -
+2023-12-07 03:22:55,599:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-07 03:22:55,599:INFO:[33mPress CTRL+C to quit[0m
+2023-12-07 03:22:57,967:INFO:127.0.0.1 - - [07/Dec/2023 03:22:57] "GET / HTTP/1.1" 200 -
+2023-12-07 03:22:58,093:INFO:127.0.0.1 - - [07/Dec/2023 03:22:58] "GET /get-topics HTTP/1.1" 200 -
+2023-12-07 03:23:24,427:INFO:127.0.0.1 - - [07/Dec/2023 03:23:24] "POST /chat HTTP/1.1" 200 -
+2023-12-07 03:23:26,900:INFO:127.0.0.1 - - [07/Dec/2023 03:23:26] "POST /chat HTTP/1.1" 200 -
+2023-12-07 03:24:19,673:INFO:127.0.0.1 - - [07/Dec/2023 03:24:19] "POST /chat HTTP/1.1" 200 -
+2023-12-07 03:24:20,539:INFO:127.0.0.1 - - [07/Dec/2023 03:24:20] "POST /chat HTTP/1.1" 200 -
+2023-12-07 03:24:23,802:INFO:127.0.0.1 - - [07/Dec/2023 03:24:23] "GET /visualization HTTP/1.1" 200 -
+2023-12-07 03:24:23,865:INFO:127.0.0.1 - - [07/Dec/2023 03:24:23] "GET /get-query-stats HTTP/1.1" 200 -
+2023-12-07 15:24:29,949:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-07 15:24:29,949:INFO:[33mPress CTRL+C to quit[0m
+2023-12-07 15:24:48,775:INFO:127.0.0.1 - - [07/Dec/2023 15:24:48] "GET / HTTP/1.1" 200 -
+2023-12-07 15:24:48,977:INFO:127.0.0.1 - - [07/Dec/2023 15:24:48] "GET /get-topics HTTP/1.1" 200 -
+2023-12-07 15:24:50,870:INFO:127.0.0.1 - - [07/Dec/2023 15:24:50] "GET /visualization HTTP/1.1" 200 -
+2023-12-07 15:25:10,351:INFO:127.0.0.1 - - [07/Dec/2023 15:25:10] "POST /chat HTTP/1.1" 200 -
+2023-12-07 15:25:11,516:INFO:127.0.0.1 - - [07/Dec/2023 15:25:11] "GET /visualization HTTP/1.1" 200 -
+2023-12-07 18:48:51,802:INFO:127.0.0.1 - - [07/Dec/2023 18:48:51] "GET /get-topics HTTP/1.1" 200 -
+2023-12-07 21:53:30,374:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-07 21:53:30,375:INFO:[33mPress CTRL+C to quit[0m
+2023-12-07 21:53:31,040:INFO:127.0.0.1 - - [07/Dec/2023 21:53:31] "GET / HTTP/1.1" 200 -
+2023-12-07 21:53:31,100:INFO:127.0.0.1 - - [07/Dec/2023 21:53:31] "GET /get-topics HTTP/1.1" 200 -
+2023-12-07 21:53:32,614:INFO:127.0.0.1 - - [07/Dec/2023 21:53:32] "GET /visualization HTTP/1.1" 200 -
+2023-12-08 00:31:28,930:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-08 00:31:28,930:INFO:[33mPress CTRL+C to quit[0m
+2023-12-08 00:31:50,189:INFO:127.0.0.1 - - [08/Dec/2023 00:31:50] "GET / HTTP/1.1" 200 -
+2023-12-08 00:31:50,350:INFO:127.0.0.1 - - [08/Dec/2023 00:31:50] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 00:31:51,791:INFO:127.0.0.1 - - [08/Dec/2023 00:31:51] "GET /visualization HTTP/1.1" 200 -
+2023-12-08 00:47:43,760:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-08 00:47:43,760:INFO:[33mPress CTRL+C to quit[0m
+2023-12-08 00:47:54,451:INFO:127.0.0.1 - - [08/Dec/2023 00:47:54] "GET / HTTP/1.1" 200 -
+2023-12-08 00:47:54,526:INFO:127.0.0.1 - - [08/Dec/2023 00:47:54] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 00:48:05,862:INFO:127.0.0.1 - - [08/Dec/2023 00:48:05] "POST /chat HTTP/1.1" 200 -
+2023-12-08 00:48:16,215:INFO:127.0.0.1 - - [08/Dec/2023 00:48:16] "POST /chat HTTP/1.1" 200 -
+2023-12-08 00:48:23,870:INFO:127.0.0.1 - - [08/Dec/2023 00:48:23] "POST /chat HTTP/1.1" 200 -
+2023-12-08 00:48:30,406:INFO:127.0.0.1 - - [08/Dec/2023 00:48:30] "POST /chat HTTP/1.1" 200 -
+2023-12-08 00:48:34,843:INFO:127.0.0.1 - - [08/Dec/2023 00:48:34] "POST /chat HTTP/1.1" 200 -
+2023-12-08 00:48:47,207:INFO:127.0.0.1 - - [08/Dec/2023 00:48:47] "POST /chat HTTP/1.1" 200 -
+2023-12-08 00:49:02,933:INFO:127.0.0.1 - - [08/Dec/2023 00:49:02] "POST /chat HTTP/1.1" 200 -
+2023-12-08 00:49:26,629:INFO:127.0.0.1 - - [08/Dec/2023 00:49:26] "POST /chat HTTP/1.1" 200 -
+2023-12-08 00:49:38,141:ERROR:Classifier returned no labels.
+2023-12-08 00:49:38,150:INFO:127.0.0.1 - - [08/Dec/2023 00:49:38] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2023-12-08 00:49:55,092:INFO:127.0.0.1 - - [08/Dec/2023 00:49:55] "POST /chat HTTP/1.1" 200 -
+2023-12-08 00:50:09,836:INFO:127.0.0.1 - - [08/Dec/2023 00:50:09] "POST /chat HTTP/1.1" 200 -
+2023-12-08 00:50:23,662:INFO:127.0.0.1 - - [08/Dec/2023 00:50:23] "POST /chat HTTP/1.1" 200 -
+2023-12-08 00:50:48,192:ERROR:Classifier returned no labels.
+2023-12-08 00:50:48,197:INFO:127.0.0.1 - - [08/Dec/2023 00:50:48] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2023-12-08 00:51:07,165:INFO:127.0.0.1 - - [08/Dec/2023 00:51:07] "POST /chat HTTP/1.1" 200 -
+2023-12-08 00:51:30,219:INFO:127.0.0.1 - - [08/Dec/2023 00:51:30] "POST /chat HTTP/1.1" 200 -
+2023-12-08 00:52:01,881:INFO:127.0.0.1 - - [08/Dec/2023 00:52:01] "POST /chat HTTP/1.1" 200 -
+2023-12-08 00:52:39,119:INFO:127.0.0.1 - - [08/Dec/2023 00:52:39] "POST /chat HTTP/1.1" 200 -
+2023-12-08 00:53:18,803:INFO:127.0.0.1 - - [08/Dec/2023 00:53:18] "POST /chat HTTP/1.1" 200 -
+2023-12-08 00:54:08,228:INFO:127.0.0.1 - - [08/Dec/2023 00:54:08] "POST /chat HTTP/1.1" 200 -
+2023-12-08 00:55:02,226:INFO:127.0.0.1 - - [08/Dec/2023 00:55:02] "POST /chat HTTP/1.1" 200 -
+2023-12-08 00:55:14,273:ERROR:Classifier returned no labels.
+2023-12-08 00:55:14,274:INFO:127.0.0.1 - - [08/Dec/2023 00:55:14] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2023-12-08 00:55:42,042:INFO:127.0.0.1 - - [08/Dec/2023 00:55:42] "POST /chat HTTP/1.1" 200 -
+2023-12-08 00:56:34,965:INFO:127.0.0.1 - - [08/Dec/2023 00:56:34] "POST /chat HTTP/1.1" 200 -
+2023-12-08 00:56:57,915:INFO:127.0.0.1 - - [08/Dec/2023 00:56:57] "POST /chat HTTP/1.1" 200 -
+2023-12-08 00:57:17,788:INFO:127.0.0.1 - - [08/Dec/2023 00:57:17] "POST /chat HTTP/1.1" 200 -
+2023-12-08 00:57:32,445:INFO:127.0.0.1 - - [08/Dec/2023 00:57:32] "POST /chat HTTP/1.1" 200 -
+2023-12-08 00:57:38,310:INFO:127.0.0.1 - - [08/Dec/2023 00:57:38] "POST /chat HTTP/1.1" 200 -
+2023-12-08 00:59:31,044:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-08 00:59:31,044:INFO:[33mPress CTRL+C to quit[0m
+2023-12-08 00:59:37,096:INFO:127.0.0.1 - - [08/Dec/2023 00:59:37] "GET / HTTP/1.1" 200 -
+2023-12-08 00:59:37,294:INFO:127.0.0.1 - - [08/Dec/2023 00:59:37] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 00:59:44,047:ERROR:table chat_logs has no column named query_type
+2023-12-08 00:59:44,048:INFO:127.0.0.1 - - [08/Dec/2023 00:59:44] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2023-12-08 01:01:36,741:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-08 01:01:36,741:INFO:[33mPress CTRL+C to quit[0m
+2023-12-08 01:01:37,230:INFO:127.0.0.1 - - [08/Dec/2023 01:01:37] "GET / HTTP/1.1" 200 -
+2023-12-08 01:01:37,330:INFO:127.0.0.1 - - [08/Dec/2023 01:01:37] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 01:01:45,446:ERROR:table chat_logs has no column named response_time
+2023-12-08 01:01:45,446:INFO:127.0.0.1 - - [08/Dec/2023 01:01:45] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2023-12-08 01:03:06,129:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-08 01:03:06,129:INFO:[33mPress CTRL+C to quit[0m
+2023-12-08 01:03:15,298:INFO:127.0.0.1 - - [08/Dec/2023 01:03:15] "GET / HTTP/1.1" 200 -
+2023-12-08 01:03:15,416:INFO:127.0.0.1 - - [08/Dec/2023 01:03:15] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 01:03:23,967:INFO:127.0.0.1 - - [08/Dec/2023 01:03:23] "POST /chat HTTP/1.1" 200 -
+2023-12-08 01:03:32,892:INFO:127.0.0.1 - - [08/Dec/2023 01:03:32] "POST /chat HTTP/1.1" 200 -
+2023-12-08 01:04:35,394:INFO:127.0.0.1 - - [08/Dec/2023 01:04:35] "GET / HTTP/1.1" 200 -
+2023-12-08 01:04:35,502:INFO:127.0.0.1 - - [08/Dec/2023 01:04:35] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 01:04:41,786:ERROR:API request failed with status code 500
+2023-12-08 01:04:41,794:INFO:127.0.0.1 - - [08/Dec/2023 01:04:41] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2023-12-08 01:04:51,828:INFO:127.0.0.1 - - [08/Dec/2023 01:04:51] "GET / HTTP/1.1" 200 -
+2023-12-08 01:04:51,957:INFO:127.0.0.1 - - [08/Dec/2023 01:04:51] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 01:04:57,668:INFO:127.0.0.1 - - [08/Dec/2023 01:04:57] "POST /chat HTTP/1.1" 200 -
+2023-12-08 01:05:06,564:INFO:127.0.0.1 - - [08/Dec/2023 01:05:06] "POST /chat HTTP/1.1" 200 -
+2023-12-08 01:05:13,012:ERROR:API request failed with status code 503
+2023-12-08 01:05:13,015:INFO:127.0.0.1 - - [08/Dec/2023 01:05:13] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2023-12-08 01:05:16,036:ERROR:API request failed with status code 500
+2023-12-08 01:05:16,041:INFO:127.0.0.1 - - [08/Dec/2023 01:05:16] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2023-12-08 01:05:24,767:INFO:127.0.0.1 - - [08/Dec/2023 01:05:24] "GET / HTTP/1.1" 200 -
+2023-12-08 01:05:24,914:INFO:127.0.0.1 - - [08/Dec/2023 01:05:24] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 01:05:37,806:INFO:127.0.0.1 - - [08/Dec/2023 01:05:37] "POST /chat HTTP/1.1" 200 -
+2023-12-08 01:05:52,961:INFO:127.0.0.1 - - [08/Dec/2023 01:05:52] "POST /chat HTTP/1.1" 200 -
+2023-12-08 01:06:10,880:INFO:127.0.0.1 - - [08/Dec/2023 01:06:10] "POST /chat HTTP/1.1" 200 -
+2023-12-08 01:06:28,088:INFO:127.0.0.1 - - [08/Dec/2023 01:06:28] "POST /chat HTTP/1.1" 200 -
+2023-12-08 01:06:46,834:INFO:127.0.0.1 - - [08/Dec/2023 01:06:46] "POST /chat HTTP/1.1" 200 -
+2023-12-08 01:07:24,207:INFO:127.0.0.1 - - [08/Dec/2023 01:07:24] "POST /chat HTTP/1.1" 200 -
+2023-12-08 01:08:36,190:INFO:127.0.0.1 - - [08/Dec/2023 01:08:36] "POST /chat HTTP/1.1" 200 -
+2023-12-08 01:09:25,346:INFO:127.0.0.1 - - [08/Dec/2023 01:09:25] "POST /chat HTTP/1.1" 200 -
+2023-12-08 01:10:45,770:ERROR:Classifier returned no labels.
+2023-12-08 01:10:45,778:INFO:127.0.0.1 - - [08/Dec/2023 01:10:45] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2023-12-08 01:11:01,224:INFO:127.0.0.1 - - [08/Dec/2023 01:11:01] "POST /chat HTTP/1.1" 200 -
+2023-12-08 01:11:12,022:INFO:127.0.0.1 - - [08/Dec/2023 01:11:12] "POST /chat HTTP/1.1" 200 -
+2023-12-08 01:11:24,108:ERROR:Classifier returned no labels.
+2023-12-08 01:11:24,116:INFO:127.0.0.1 - - [08/Dec/2023 01:11:24] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2023-12-08 01:12:16,893:INFO:127.0.0.1 - - [08/Dec/2023 01:12:16] "POST /chat HTTP/1.1" 200 -
+2023-12-08 01:12:41,335:ERROR:Classifier returned no labels.
+2023-12-08 01:12:41,343:INFO:127.0.0.1 - - [08/Dec/2023 01:12:41] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2023-12-08 01:22:04,539:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-08 01:22:04,539:INFO:[33mPress CTRL+C to quit[0m
+2023-12-08 01:22:09,432:INFO:127.0.0.1 - - [08/Dec/2023 01:22:09] "GET / HTTP/1.1" 200 -
+2023-12-08 01:22:09,732:INFO:127.0.0.1 - - [08/Dec/2023 01:22:09] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 01:22:11,116:INFO:127.0.0.1 - - [08/Dec/2023 01:22:11] "GET /visualization HTTP/1.1" 200 -
+2023-12-08 14:19:46,488:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-08 14:19:46,488:INFO:[33mPress CTRL+C to quit[0m
+2023-12-08 14:19:50,753:INFO:127.0.0.1 - - [08/Dec/2023 14:19:50] "GET / HTTP/1.1" 200 -
+2023-12-08 14:19:50,948:INFO:127.0.0.1 - - [08/Dec/2023 14:19:50] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 14:20:31,572:ERROR:API request failed with status code 500
+2023-12-08 14:20:31,575:INFO:127.0.0.1 - - [08/Dec/2023 14:20:31] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2023-12-08 14:20:42,936:ERROR:API request failed with status code 503
+2023-12-08 14:20:42,941:INFO:127.0.0.1 - - [08/Dec/2023 14:20:42] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2023-12-08 14:20:59,311:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-08 14:20:59,311:INFO:[33mPress CTRL+C to quit[0m
+2023-12-08 14:21:04,748:INFO:127.0.0.1 - - [08/Dec/2023 14:21:04] "GET / HTTP/1.1" 200 -
+2023-12-08 14:21:04,910:INFO:127.0.0.1 - - [08/Dec/2023 14:21:04] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 14:21:19,815:INFO:127.0.0.1 - - [08/Dec/2023 14:21:19] "POST /chat HTTP/1.1" 200 -
+2023-12-08 14:21:31,779:ERROR:API request failed with status code 503
+2023-12-08 14:21:31,782:INFO:127.0.0.1 - - [08/Dec/2023 14:21:31] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2023-12-08 14:22:20,392:INFO:127.0.0.1 - - [08/Dec/2023 14:22:20] "POST /chat HTTP/1.1" 200 -
+2023-12-08 15:53:19,685:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-08 15:53:19,685:INFO:[33mPress CTRL+C to quit[0m
+2023-12-08 15:53:20,290:INFO:127.0.0.1 - - [08/Dec/2023 15:53:20] "GET / HTTP/1.1" 200 -
+2023-12-08 15:53:20,463:INFO:127.0.0.1 - - [08/Dec/2023 15:53:20] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 15:53:32,833:INFO:127.0.0.1 - - [08/Dec/2023 15:53:32] "POST /chat HTTP/1.1" 200 -
+2023-12-08 15:53:39,620:INFO:127.0.0.1 - - [08/Dec/2023 15:53:39] "POST /chat HTTP/1.1" 200 -
+2023-12-08 15:54:14,728:INFO:127.0.0.1 - - [08/Dec/2023 15:54:14] "POST /chat HTTP/1.1" 200 -
+2023-12-08 15:54:43,706:INFO:127.0.0.1 - - [08/Dec/2023 15:54:43] "POST /chat HTTP/1.1" 200 -
+2023-12-08 15:57:37,283:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-08 15:57:37,283:INFO:[33mPress CTRL+C to quit[0m
+2023-12-08 15:57:38,394:INFO:127.0.0.1 - - [08/Dec/2023 15:57:38] "GET / HTTP/1.1" 200 -
+2023-12-08 15:57:38,538:INFO:127.0.0.1 - - [08/Dec/2023 15:57:38] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 15:57:54,605:INFO:127.0.0.1 - - [08/Dec/2023 15:57:54] "POST /chat HTTP/1.1" 200 -
+2023-12-08 15:58:12,232:INFO:127.0.0.1 - - [08/Dec/2023 15:58:12] "POST /chat HTTP/1.1" 200 -
+2023-12-08 15:59:37,931:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-08 15:59:37,931:INFO:[33mPress CTRL+C to quit[0m
+2023-12-08 15:59:40,678:INFO:127.0.0.1 - - [08/Dec/2023 15:59:40] "GET / HTTP/1.1" 200 -
+2023-12-08 15:59:40,798:INFO:127.0.0.1 - - [08/Dec/2023 15:59:40] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 15:59:55,814:INFO:127.0.0.1 - - [08/Dec/2023 15:59:55] "POST /chat HTTP/1.1" 200 -
+2023-12-08 16:00:19,374:INFO:127.0.0.1 - - [08/Dec/2023 16:00:19] "POST /chat HTTP/1.1" 200 -
+2023-12-08 16:00:59,413:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-08 16:00:59,413:INFO:[33mPress CTRL+C to quit[0m
+2023-12-08 16:01:01,402:INFO:127.0.0.1 - - [08/Dec/2023 16:01:01] "GET / HTTP/1.1" 200 -
+2023-12-08 16:01:01,567:INFO:127.0.0.1 - - [08/Dec/2023 16:01:01] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 16:01:16,718:INFO:127.0.0.1 - - [08/Dec/2023 16:01:16] "POST /chat HTTP/1.1" 200 -
+2023-12-08 16:01:29,682:INFO:127.0.0.1 - - [08/Dec/2023 16:01:29] "POST /chat HTTP/1.1" 200 -
+2023-12-08 16:02:06,080:INFO:127.0.0.1 - - [08/Dec/2023 16:02:06] "POST /chat HTTP/1.1" 200 -
+2023-12-08 16:04:02,609:INFO:127.0.0.1 - - [08/Dec/2023 16:04:02] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 16:04:05,654:INFO:127.0.0.1 - - [08/Dec/2023 16:04:05] "GET /visualization HTTP/1.1" 200 -
+2023-12-08 16:14:21,229:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-08 16:14:21,229:INFO:[33mPress CTRL+C to quit[0m
+2023-12-08 16:15:37,653:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-08 16:15:37,653:INFO:[33mPress CTRL+C to quit[0m
+2023-12-08 16:16:46,327:INFO:127.0.0.1 - - [08/Dec/2023 16:16:46] "GET / HTTP/1.1" 200 -
+2023-12-08 16:16:46,474:INFO:127.0.0.1 - - [08/Dec/2023 16:16:46] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 16:16:57,395:INFO:127.0.0.1 - - [08/Dec/2023 16:16:57] "POST /chat HTTP/1.1" 200 -
+2023-12-08 16:17:13,214:INFO:127.0.0.1 - - [08/Dec/2023 16:17:13] "POST /chat HTTP/1.1" 200 -
+2023-12-08 16:17:28,077:INFO:127.0.0.1 - - [08/Dec/2023 16:17:28] "POST /chat HTTP/1.1" 200 -
+2023-12-08 16:17:46,354:ERROR:API request failed with status code 503
+2023-12-08 16:17:46,356:INFO:127.0.0.1 - - [08/Dec/2023 16:17:46] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2023-12-08 16:18:25,946:INFO:127.0.0.1 - - [08/Dec/2023 16:18:25] "POST /chat HTTP/1.1" 200 -
+2023-12-08 16:18:46,999:ERROR:'tuple' object has no attribute 'pop'
+2023-12-08 16:18:47,015:INFO:127.0.0.1 - - [08/Dec/2023 16:18:47] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2023-12-08 16:20:17,190:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-08 16:20:17,191:INFO:[33mPress CTRL+C to quit[0m
+2023-12-08 16:20:17,865:INFO:127.0.0.1 - - [08/Dec/2023 16:20:17] "GET / HTTP/1.1" 200 -
+2023-12-08 16:20:18,180:INFO:127.0.0.1 - - [08/Dec/2023 16:20:18] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 16:20:35,927:ERROR:'tuple' object has no attribute 'pop'
+2023-12-08 16:20:35,941:INFO:127.0.0.1 - - [08/Dec/2023 16:20:35] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2023-12-08 16:25:57,347:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-08 16:25:57,347:INFO:[33mPress CTRL+C to quit[0m
+2023-12-08 16:26:05,083:INFO:127.0.0.1 - - [08/Dec/2023 16:26:05] "GET / HTTP/1.1" 200 -
+2023-12-08 16:26:05,199:INFO:127.0.0.1 - - [08/Dec/2023 16:26:05] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 16:26:23,885:ERROR:not enough values to unpack (expected 2, got 0)
+2023-12-08 16:26:23,885:INFO:127.0.0.1 - - [08/Dec/2023 16:26:23] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2023-12-08 16:27:56,935:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-08 16:27:56,935:INFO:[33mPress CTRL+C to quit[0m
+2023-12-08 16:28:01,238:INFO:127.0.0.1 - - [08/Dec/2023 16:28:01] "GET / HTTP/1.1" 200 -
+2023-12-08 16:28:01,357:INFO:127.0.0.1 - - [08/Dec/2023 16:28:01] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 16:28:22,613:ERROR:local variable 'total_retrieved' referenced before assignment
+2023-12-08 16:28:22,624:INFO:127.0.0.1 - - [08/Dec/2023 16:28:22] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2023-12-08 16:29:40,142:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-08 16:29:40,142:INFO:[33mPress CTRL+C to quit[0m
+2023-12-08 16:29:47,593:INFO:127.0.0.1 - - [08/Dec/2023 16:29:47] "GET / HTTP/1.1" 200 -
+2023-12-08 16:29:47,681:INFO:127.0.0.1 - - [08/Dec/2023 16:29:47] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 16:30:04,913:ERROR:local variable 'total_retrieved' referenced before assignment
+2023-12-08 16:30:04,924:INFO:127.0.0.1 - - [08/Dec/2023 16:30:04] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2023-12-08 16:31:22,798:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-08 16:31:22,798:INFO:[33mPress CTRL+C to quit[0m
+2023-12-08 16:31:28,614:INFO:127.0.0.1 - - [08/Dec/2023 16:31:28] "GET / HTTP/1.1" 200 -
+2023-12-08 16:31:28,712:INFO:127.0.0.1 - - [08/Dec/2023 16:31:28] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 16:31:41,062:ERROR:API request failed with status code 503
+2023-12-08 16:31:41,070:INFO:127.0.0.1 - - [08/Dec/2023 16:31:41] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2023-12-08 16:31:47,042:INFO:127.0.0.1 - - [08/Dec/2023 16:31:47] "GET / HTTP/1.1" 200 -
+2023-12-08 16:31:47,170:INFO:127.0.0.1 - - [08/Dec/2023 16:31:47] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 16:32:01,348:INFO:127.0.0.1 - - [08/Dec/2023 16:32:01] "POST /chat HTTP/1.1" 200 -
+2023-12-08 16:32:32,282:INFO:127.0.0.1 - - [08/Dec/2023 16:32:32] "POST /chat HTTP/1.1" 200 -
+2023-12-08 16:32:59,010:INFO:127.0.0.1 - - [08/Dec/2023 16:32:59] "POST /chat HTTP/1.1" 200 -
+2023-12-08 16:33:30,132:INFO:127.0.0.1 - - [08/Dec/2023 16:33:30] "POST /chat HTTP/1.1" 200 -
+2023-12-08 16:33:51,322:ERROR:Classifier returned no labels.
+2023-12-08 16:33:51,338:INFO:127.0.0.1 - - [08/Dec/2023 16:33:51] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2023-12-08 16:34:09,758:ERROR:Classifier returned no labels.
+2023-12-08 16:34:09,766:INFO:127.0.0.1 - - [08/Dec/2023 16:34:09] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2023-12-08 16:35:09,457:INFO:127.0.0.1 - - [08/Dec/2023 16:35:09] "POST /chat HTTP/1.1" 200 -
+2023-12-08 16:35:35,202:INFO:127.0.0.1 - - [08/Dec/2023 16:35:35] "POST /chat HTTP/1.1" 200 -
+2023-12-08 16:35:53,839:INFO:127.0.0.1 - - [08/Dec/2023 16:35:53] "POST /chat HTTP/1.1" 200 -
+2023-12-08 16:36:16,674:INFO:127.0.0.1 - - [08/Dec/2023 16:36:16] "POST /chat HTTP/1.1" 200 -
+2023-12-08 16:36:33,293:ERROR:not enough values to unpack (expected 2, got 0)
+2023-12-08 16:36:33,308:INFO:127.0.0.1 - - [08/Dec/2023 16:36:33] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2023-12-08 16:37:09,268:INFO:127.0.0.1 - - [08/Dec/2023 16:37:09] "POST /chat HTTP/1.1" 200 -
+2023-12-08 16:37:57,051:INFO:127.0.0.1 - - [08/Dec/2023 16:37:57] "POST /chat HTTP/1.1" 200 -
+2023-12-08 16:38:37,033:INFO:127.0.0.1 - - [08/Dec/2023 16:38:37] "POST /chat HTTP/1.1" 200 -
+2023-12-08 16:39:05,892:INFO:127.0.0.1 - - [08/Dec/2023 16:39:05] "POST /chat HTTP/1.1" 200 -
+2023-12-08 16:39:42,333:ERROR:Classifier returned no labels.
+2023-12-08 16:39:42,333:INFO:127.0.0.1 - - [08/Dec/2023 16:39:42] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2023-12-08 16:40:46,389:ERROR:Classifier returned no labels.
+2023-12-08 16:40:46,396:INFO:127.0.0.1 - - [08/Dec/2023 16:40:46] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2023-12-08 16:41:11,452:INFO:127.0.0.1 - - [08/Dec/2023 16:41:11] "POST /chat HTTP/1.1" 200 -
+2023-12-08 16:42:08,537:INFO:127.0.0.1 - - [08/Dec/2023 16:42:08] "POST /chat HTTP/1.1" 200 -
+2023-12-08 16:42:54,378:INFO:127.0.0.1 - - [08/Dec/2023 16:42:54] "POST /chat HTTP/1.1" 200 -
+2023-12-08 16:47:57,266:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-08 16:47:57,266:INFO:[33mPress CTRL+C to quit[0m
+2023-12-08 16:48:00,942:INFO:127.0.0.1 - - [08/Dec/2023 16:48:00] "GET / HTTP/1.1" 200 -
+2023-12-08 16:48:01,228:INFO:127.0.0.1 - - [08/Dec/2023 16:48:01] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 16:48:19,779:ERROR:'tuple' object has no attribute 'pop'
+2023-12-08 16:48:19,793:INFO:127.0.0.1 - - [08/Dec/2023 16:48:19] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2023-12-08 17:01:40,392:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-08 17:01:40,392:INFO:[33mPress CTRL+C to quit[0m
+2023-12-08 17:01:43,173:INFO:127.0.0.1 - - [08/Dec/2023 17:01:43] "GET / HTTP/1.1" 200 -
+2023-12-08 17:01:43,424:INFO:127.0.0.1 - - [08/Dec/2023 17:01:43] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 17:02:00,024:INFO:127.0.0.1 - - [08/Dec/2023 17:02:00] "POST /chat HTTP/1.1" 200 -
+2023-12-08 17:02:16,988:ERROR:API request failed with status code 503
+2023-12-08 17:02:17,007:INFO:127.0.0.1 - - [08/Dec/2023 17:02:17] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2023-12-08 17:02:35,907:INFO:127.0.0.1 - - [08/Dec/2023 17:02:35] "POST /chat HTTP/1.1" 200 -
+2023-12-08 17:06:38,700:INFO:127.0.0.1 - - [08/Dec/2023 17:06:38] "POST /chat HTTP/1.1" 200 -
+2023-12-08 17:06:58,259:INFO:127.0.0.1 - - [08/Dec/2023 17:06:58] "POST /chat HTTP/1.1" 200 -
+2023-12-08 17:07:23,614:INFO:127.0.0.1 - - [08/Dec/2023 17:07:23] "POST /chat HTTP/1.1" 200 -
+2023-12-08 17:07:46,328:ERROR:local variable 'total_retrieved' referenced before assignment
+2023-12-08 17:07:46,328:INFO:127.0.0.1 - - [08/Dec/2023 17:07:46] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2023-12-08 17:08:55,530:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-08 17:08:55,530:INFO:[33mPress CTRL+C to quit[0m
+2023-12-08 17:09:46,296:INFO:127.0.0.1 - - [08/Dec/2023 17:09:46] "GET / HTTP/1.1" 200 -
+2023-12-08 17:09:46,446:INFO:127.0.0.1 - - [08/Dec/2023 17:09:46] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 17:10:01,471:ERROR:database is locked
+2023-12-08 17:10:01,474:INFO:127.0.0.1 - - [08/Dec/2023 17:10:01] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2023-12-08 17:12:30,790:INFO:127.0.0.1 - - [08/Dec/2023 17:12:30] "POST /chat HTTP/1.1" 200 -
+2023-12-08 17:14:19,458:INFO:127.0.0.1 - - [08/Dec/2023 17:14:19] "POST /chat HTTP/1.1" 200 -
+2023-12-08 17:14:45,881:INFO:127.0.0.1 - - [08/Dec/2023 17:14:45] "POST /chat HTTP/1.1" 200 -
+2023-12-08 17:15:07,028:INFO:127.0.0.1 - - [08/Dec/2023 17:15:07] "POST /chat HTTP/1.1" 200 -
+2023-12-08 17:15:45,123:INFO:127.0.0.1 - - [08/Dec/2023 17:15:45] "POST /chat HTTP/1.1" 200 -
+2023-12-08 17:16:14,796:INFO:127.0.0.1 - - [08/Dec/2023 17:16:14] "POST /chat HTTP/1.1" 200 -
+2023-12-08 17:16:44,952:ERROR:API request failed with status code 503
+2023-12-08 17:16:44,956:INFO:127.0.0.1 - - [08/Dec/2023 17:16:44] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2023-12-08 17:16:55,897:ERROR:API request failed with status code 503
+2023-12-08 17:16:55,897:INFO:127.0.0.1 - - [08/Dec/2023 17:16:55] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2023-12-08 17:17:12,137:ERROR:Classifier returned no labels.
+2023-12-08 17:17:12,153:INFO:127.0.0.1 - - [08/Dec/2023 17:17:12] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2023-12-08 17:17:30,645:INFO:127.0.0.1 - - [08/Dec/2023 17:17:30] "POST /chat HTTP/1.1" 200 -
+2023-12-08 17:17:48,258:INFO:127.0.0.1 - - [08/Dec/2023 17:17:48] "POST /chat HTTP/1.1" 200 -
+2023-12-08 17:18:44,169:INFO:127.0.0.1 - - [08/Dec/2023 17:18:44] "POST /chat HTTP/1.1" 200 -
+2023-12-08 17:19:00,704:ERROR:Classifier returned no labels.
+2023-12-08 17:19:00,704:INFO:127.0.0.1 - - [08/Dec/2023 17:19:00] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2023-12-08 17:19:36,904:INFO:127.0.0.1 - - [08/Dec/2023 17:19:36] "POST /chat HTTP/1.1" 200 -
+2023-12-08 17:20:08,364:INFO:127.0.0.1 - - [08/Dec/2023 17:20:08] "POST /chat HTTP/1.1" 200 -
+2023-12-08 17:20:27,147:ERROR:Classifier returned no labels.
+2023-12-08 17:20:27,147:INFO:127.0.0.1 - - [08/Dec/2023 17:20:27] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2023-12-08 17:20:52,154:INFO:127.0.0.1 - - [08/Dec/2023 17:20:52] "POST /chat HTTP/1.1" 200 -
+2023-12-08 17:21:09,407:INFO:127.0.0.1 - - [08/Dec/2023 17:21:09] "POST /chat HTTP/1.1" 200 -
+2023-12-08 17:21:37,633:INFO:127.0.0.1 - - [08/Dec/2023 17:21:37] "POST /chat HTTP/1.1" 200 -
+2023-12-08 17:22:25,122:ERROR:not enough values to unpack (expected 2, got 0)
+2023-12-08 17:22:25,139:INFO:127.0.0.1 - - [08/Dec/2023 17:22:25] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2023-12-08 17:22:45,037:ERROR:not enough values to unpack (expected 2, got 0)
+2023-12-08 17:22:45,044:INFO:127.0.0.1 - - [08/Dec/2023 17:22:45] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2023-12-08 17:23:13,999:INFO:127.0.0.1 - - [08/Dec/2023 17:23:13] "POST /chat HTTP/1.1" 200 -
+2023-12-08 17:23:49,619:INFO:127.0.0.1 - - [08/Dec/2023 17:23:49] "POST /chat HTTP/1.1" 200 -
+2023-12-08 17:24:16,955:INFO:127.0.0.1 - - [08/Dec/2023 17:24:16] "POST /chat HTTP/1.1" 200 -
+2023-12-08 17:24:47,410:INFO:127.0.0.1 - - [08/Dec/2023 17:24:47] "POST /chat HTTP/1.1" 200 -
+2023-12-08 17:25:21,481:INFO:127.0.0.1 - - [08/Dec/2023 17:25:21] "POST /chat HTTP/1.1" 200 -
+2023-12-08 17:25:49,940:INFO:127.0.0.1 - - [08/Dec/2023 17:25:49] "POST /chat HTTP/1.1" 200 -
+2023-12-08 17:26:27,211:INFO:127.0.0.1 - - [08/Dec/2023 17:26:27] "POST /chat HTTP/1.1" 200 -
+2023-12-08 17:26:53,744:INFO:127.0.0.1 - - [08/Dec/2023 17:26:53] "POST /chat HTTP/1.1" 200 -
+2023-12-08 17:27:40,441:INFO:127.0.0.1 - - [08/Dec/2023 17:27:40] "POST /chat HTTP/1.1" 200 -
+2023-12-08 17:41:59,849:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-08 17:41:59,849:INFO:[33mPress CTRL+C to quit[0m
+2023-12-08 17:42:20,064:INFO:127.0.0.1 - - [08/Dec/2023 17:42:20] "GET /visualization HTTP/1.1" 200 -
+2023-12-08 17:42:20,105:INFO:127.0.0.1 - - [08/Dec/2023 17:42:20] "[33mGET /data HTTP/1.1[0m" 404 -
+2023-12-08 17:42:24,498:INFO:127.0.0.1 - - [08/Dec/2023 17:42:24] "GET / HTTP/1.1" 200 -
+2023-12-08 17:42:24,595:INFO:127.0.0.1 - - [08/Dec/2023 17:42:24] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 17:42:26,265:INFO:127.0.0.1 - - [08/Dec/2023 17:42:26] "GET /visualization HTTP/1.1" 200 -
+2023-12-08 17:42:26,303:INFO:127.0.0.1 - - [08/Dec/2023 17:42:26] "[33mGET /data HTTP/1.1[0m" 404 -
+2023-12-08 17:42:28,038:INFO:127.0.0.1 - - [08/Dec/2023 17:42:28] "GET /visualization HTTP/1.1" 200 -
+2023-12-08 17:42:28,089:INFO:127.0.0.1 - - [08/Dec/2023 17:42:28] "[33mGET /data HTTP/1.1[0m" 404 -
+2023-12-08 17:43:42,792:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-08 17:43:42,792:INFO:[33mPress CTRL+C to quit[0m
+2023-12-08 17:43:47,313:INFO:127.0.0.1 - - [08/Dec/2023 17:43:47] "GET /visualization HTTP/1.1" 200 -
+2023-12-08 17:43:47,362:INFO:127.0.0.1 - - [08/Dec/2023 17:43:47] "GET /data HTTP/1.1" 200 -
+2023-12-08 20:04:16,986:INFO:127.0.0.1 - - [08/Dec/2023 20:04:16] "GET /visualization HTTP/1.1" 200 -
+2023-12-08 20:04:17,039:INFO:127.0.0.1 - - [08/Dec/2023 20:04:17] "GET /data HTTP/1.1" 200 -
+2023-12-08 20:09:00,587:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-08 20:09:00,587:INFO:[33mPress CTRL+C to quit[0m
+2023-12-08 20:09:13,747:INFO:127.0.0.1 - - [08/Dec/2023 20:09:13] "GET /visualization HTTP/1.1" 200 -
+2023-12-08 20:09:13,843:INFO:127.0.0.1 - - [08/Dec/2023 20:09:13] "GET /data HTTP/1.1" 200 -
+2023-12-08 20:09:13,960:INFO:127.0.0.1 - - [08/Dec/2023 20:09:13] "GET /data HTTP/1.1" 200 -
+2023-12-08 20:10:04,545:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-08 20:10:04,545:INFO:[33mPress CTRL+C to quit[0m
+2023-12-08 20:10:05,183:INFO:127.0.0.1 - - [08/Dec/2023 20:10:05] "GET / HTTP/1.1" 200 -
+2023-12-08 20:10:05,306:INFO:127.0.0.1 - - [08/Dec/2023 20:10:05] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 20:10:06,082:INFO:127.0.0.1 - - [08/Dec/2023 20:10:06] "GET / HTTP/1.1" 200 -
+2023-12-08 20:10:06,155:INFO:127.0.0.1 - - [08/Dec/2023 20:10:06] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 20:10:07,588:INFO:127.0.0.1 - - [08/Dec/2023 20:10:07] "GET /visualization HTTP/1.1" 200 -
+2023-12-08 20:10:07,647:INFO:127.0.0.1 - - [08/Dec/2023 20:10:07] "GET /data HTTP/1.1" 200 -
+2023-12-08 20:10:07,700:INFO:127.0.0.1 - - [08/Dec/2023 20:10:07] "GET /data HTTP/1.1" 200 -
+2023-12-08 20:15:53,127:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-08 20:15:53,127:INFO:[33mPress CTRL+C to quit[0m
+2023-12-08 20:15:53,762:INFO:127.0.0.1 - - [08/Dec/2023 20:15:53] "GET / HTTP/1.1" 200 -
+2023-12-08 20:15:53,948:INFO:127.0.0.1 - - [08/Dec/2023 20:15:53] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 20:15:59,182:INFO:127.0.0.1 - - [08/Dec/2023 20:15:59] "GET /visualization HTTP/1.1" 200 -
+2023-12-08 20:15:59,254:INFO:127.0.0.1 - - [08/Dec/2023 20:15:59] "GET /data HTTP/1.1" 200 -
+2023-12-08 20:15:59,264:INFO:127.0.0.1 - - [08/Dec/2023 20:15:59] "GET /data HTTP/1.1" 200 -
+2023-12-08 20:16:18,436:INFO:127.0.0.1 - - [08/Dec/2023 20:16:18] "GET /visualization HTTP/1.1" 200 -
+2023-12-08 20:16:18,489:INFO:127.0.0.1 - - [08/Dec/2023 20:16:18] "GET /data HTTP/1.1" 200 -
+2023-12-08 20:16:18,538:INFO:127.0.0.1 - - [08/Dec/2023 20:16:18] "GET /data HTTP/1.1" 200 -
+2023-12-08 20:21:30,311:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-08 20:21:30,311:INFO:[33mPress CTRL+C to quit[0m
+2023-12-08 20:21:41,512:INFO:127.0.0.1 - - [08/Dec/2023 20:21:41] "GET / HTTP/1.1" 200 -
+2023-12-08 20:21:41,600:INFO:127.0.0.1 - - [08/Dec/2023 20:21:41] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 20:21:43,361:INFO:127.0.0.1 - - [08/Dec/2023 20:21:43] "GET /visualization HTTP/1.1" 200 -
+2023-12-08 20:21:43,418:INFO:127.0.0.1 - - [08/Dec/2023 20:21:43] "GET /data HTTP/1.1" 200 -
+2023-12-08 20:21:43,465:INFO:127.0.0.1 - - [08/Dec/2023 20:21:43] "GET /data HTTP/1.1" 200 -
+2023-12-08 20:24:19,052:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-08 20:24:19,053:INFO:[33mPress CTRL+C to quit[0m
+2023-12-08 20:24:32,683:INFO:127.0.0.1 - - [08/Dec/2023 20:24:32] "GET /visualization HTTP/1.1" 200 -
+2023-12-08 20:24:32,739:INFO:127.0.0.1 - - [08/Dec/2023 20:24:32] "GET /data HTTP/1.1" 200 -
+2023-12-08 20:24:32,795:INFO:127.0.0.1 - - [08/Dec/2023 20:24:32] "GET /data HTTP/1.1" 200 -
+2023-12-08 20:25:16,147:INFO:127.0.0.1 - - [08/Dec/2023 20:25:16] "POST /chat HTTP/1.1" 200 -
+2023-12-08 20:27:42,294:INFO:127.0.0.1 - - [08/Dec/2023 20:27:42] "GET /visualization HTTP/1.1" 200 -
+2023-12-08 20:27:42,358:INFO:127.0.0.1 - - [08/Dec/2023 20:27:42] "GET /data HTTP/1.1" 200 -
+2023-12-08 20:27:42,410:INFO:127.0.0.1 - - [08/Dec/2023 20:27:42] "GET /data HTTP/1.1" 200 -
+2023-12-08 20:30:11,260:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-08 20:30:11,260:INFO:[33mPress CTRL+C to quit[0m
+2023-12-08 20:30:11,511:INFO:127.0.0.1 - - [08/Dec/2023 20:30:11] "GET /visualization HTTP/1.1" 200 -
+2023-12-08 20:30:11,566:INFO:127.0.0.1 - - [08/Dec/2023 20:30:11] "GET /data HTTP/1.1" 200 -
+2023-12-08 20:30:11,727:INFO:127.0.0.1 - - [08/Dec/2023 20:30:11] "GET /data HTTP/1.1" 200 -
+2023-12-08 20:30:16,957:INFO:127.0.0.1 - - [08/Dec/2023 20:30:16] "GET /visualization HTTP/1.1" 200 -
+2023-12-08 20:30:17,014:INFO:127.0.0.1 - - [08/Dec/2023 20:30:17] "GET /data HTTP/1.1" 200 -
+2023-12-08 20:30:17,054:INFO:127.0.0.1 - - [08/Dec/2023 20:30:17] "GET /data HTTP/1.1" 200 -
+2023-12-08 20:30:43,065:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-08 20:30:43,065:INFO:[33mPress CTRL+C to quit[0m
+2023-12-08 20:32:30,539:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-08 20:32:30,539:INFO:[33mPress CTRL+C to quit[0m
+2023-12-08 20:32:33,205:INFO:127.0.0.1 - - [08/Dec/2023 20:32:33] "GET /visualization HTTP/1.1" 200 -
+2023-12-08 20:32:33,310:INFO:127.0.0.1 - - [08/Dec/2023 20:32:33] "GET /data HTTP/1.1" 200 -
+2023-12-08 20:32:33,400:INFO:127.0.0.1 - - [08/Dec/2023 20:32:33] "GET /data HTTP/1.1" 200 -
+2023-12-08 20:35:31,729:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-08 20:35:31,745:INFO:[33mPress CTRL+C to quit[0m
+2023-12-08 20:35:55,197:INFO:127.0.0.1 - - [08/Dec/2023 20:35:55] "GET /visualization HTTP/1.1" 200 -
+2023-12-08 20:35:55,286:INFO:127.0.0.1 - - [08/Dec/2023 20:35:55] "GET /data HTTP/1.1" 200 -
+2023-12-08 20:35:55,383:INFO:127.0.0.1 - - [08/Dec/2023 20:35:55] "GET /data HTTP/1.1" 200 -
+2023-12-08 20:36:24,896:INFO:127.0.0.1 - - [08/Dec/2023 20:36:24] "GET /visualization HTTP/1.1" 200 -
+2023-12-08 20:36:24,951:INFO:127.0.0.1 - - [08/Dec/2023 20:36:24] "GET /data HTTP/1.1" 200 -
+2023-12-08 20:36:25,037:INFO:127.0.0.1 - - [08/Dec/2023 20:36:25] "GET /data HTTP/1.1" 200 -
+2023-12-08 20:36:40,335:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-08 20:36:40,335:INFO:[33mPress CTRL+C to quit[0m
+2023-12-08 20:36:41,637:INFO:127.0.0.1 - - [08/Dec/2023 20:36:41] "GET /visualization HTTP/1.1" 200 -
+2023-12-08 20:36:41,696:INFO:127.0.0.1 - - [08/Dec/2023 20:36:41] "GET /data HTTP/1.1" 200 -
+2023-12-08 20:36:41,773:INFO:127.0.0.1 - - [08/Dec/2023 20:36:41] "GET /data HTTP/1.1" 200 -
+2023-12-08 20:37:49,678:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-08 20:37:49,678:INFO:[33mPress CTRL+C to quit[0m
+2023-12-08 20:37:54,630:INFO:127.0.0.1 - - [08/Dec/2023 20:37:54] "GET /visualization HTTP/1.1" 200 -
+2023-12-08 20:37:54,715:INFO:127.0.0.1 - - [08/Dec/2023 20:37:54] "GET /data HTTP/1.1" 200 -
+2023-12-08 20:37:54,920:INFO:127.0.0.1 - - [08/Dec/2023 20:37:54] "GET /data HTTP/1.1" 200 -
+2023-12-08 20:39:22,631:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-08 20:39:22,631:INFO:[33mPress CTRL+C to quit[0m
+2023-12-08 20:39:28,996:INFO:127.0.0.1 - - [08/Dec/2023 20:39:28] "GET /visualization HTTP/1.1" 200 -
+2023-12-08 20:39:29,070:INFO:127.0.0.1 - - [08/Dec/2023 20:39:29] "GET /data HTTP/1.1" 200 -
+2023-12-08 20:39:29,084:INFO:127.0.0.1 - - [08/Dec/2023 20:39:29] "GET /data HTTP/1.1" 200 -
+2023-12-08 20:45:47,565:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-08 20:45:47,580:INFO:[33mPress CTRL+C to quit[0m
+2023-12-08 20:45:55,097:INFO:127.0.0.1 - - [08/Dec/2023 20:45:55] "GET /visualization HTTP/1.1" 200 -
+2023-12-08 20:45:55,171:INFO:127.0.0.1 - - [08/Dec/2023 20:45:55] "GET /data HTTP/1.1" 200 -
+2023-12-08 20:45:55,185:INFO:127.0.0.1 - - [08/Dec/2023 20:45:55] "GET /data HTTP/1.1" 200 -
+2023-12-08 20:55:00,824:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-08 20:55:00,824:INFO:[33mPress CTRL+C to quit[0m
+2023-12-08 20:55:04,304:INFO:127.0.0.1 - - [08/Dec/2023 20:55:04] "GET /visualization HTTP/1.1" 200 -
+2023-12-08 20:55:04,368:INFO:127.0.0.1 - - [08/Dec/2023 20:55:04] "GET /data HTTP/1.1" 200 -
+2023-12-08 20:55:04,498:INFO:127.0.0.1 - - [08/Dec/2023 20:55:04] "GET /data HTTP/1.1" 200 -
+2023-12-08 21:03:10,929:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-08 21:03:10,929:INFO:[33mPress CTRL+C to quit[0m
+2023-12-08 21:03:15,641:INFO:127.0.0.1 - - [08/Dec/2023 21:03:15] "GET / HTTP/1.1" 200 -
+2023-12-08 21:03:15,688:INFO:127.0.0.1 - - [08/Dec/2023 21:03:15] "[33mGET /chatbotbackground.jpeg HTTP/1.1[0m" 404 -
+2023-12-08 21:03:15,795:INFO:127.0.0.1 - - [08/Dec/2023 21:03:15] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 21:03:18,165:INFO:127.0.0.1 - - [08/Dec/2023 21:03:18] "GET /visualization HTTP/1.1" 200 -
+2023-12-08 21:03:18,221:INFO:127.0.0.1 - - [08/Dec/2023 21:03:18] "GET /data HTTP/1.1" 200 -
+2023-12-08 21:03:18,278:INFO:127.0.0.1 - - [08/Dec/2023 21:03:18] "GET /data HTTP/1.1" 200 -
+2023-12-08 21:08:44,711:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-08 21:08:44,711:INFO:[33mPress CTRL+C to quit[0m
+2023-12-08 21:09:05,971:INFO:127.0.0.1 - - [08/Dec/2023 21:09:05] "GET / HTTP/1.1" 200 -
+2023-12-08 21:09:06,028:INFO:127.0.0.1 - - [08/Dec/2023 21:09:06] "[33mGET /chatbotbackground.jpeg HTTP/1.1[0m" 404 -
+2023-12-08 21:09:06,135:INFO:127.0.0.1 - - [08/Dec/2023 21:09:06] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 21:09:25,270:INFO:127.0.0.1 - - [08/Dec/2023 21:09:25] "POST /chat HTTP/1.1" 200 -
+2023-12-08 21:10:10,069:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-08 21:10:10,069:INFO:[33mPress CTRL+C to quit[0m
+2023-12-08 21:10:12,344:INFO:127.0.0.1 - - [08/Dec/2023 21:10:12] "GET / HTTP/1.1" 200 -
+2023-12-08 21:10:12,396:INFO:127.0.0.1 - - [08/Dec/2023 21:10:12] "[33mGET /cbg.jpeg HTTP/1.1[0m" 404 -
+2023-12-08 21:10:12,486:INFO:127.0.0.1 - - [08/Dec/2023 21:10:12] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 21:11:39,641:INFO:127.0.0.1 - - [08/Dec/2023 21:11:39] "GET / HTTP/1.1" 200 -
+2023-12-08 21:11:39,691:INFO:127.0.0.1 - - [08/Dec/2023 21:11:39] "[33mGET /cbg.jpeg HTTP/1.1[0m" 404 -
+2023-12-08 21:11:39,723:INFO:127.0.0.1 - - [08/Dec/2023 21:11:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-12-08 21:11:39,728:INFO:127.0.0.1 - - [08/Dec/2023 21:11:39] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 21:11:40,201:INFO:127.0.0.1 - - [08/Dec/2023 21:11:40] "GET / HTTP/1.1" 200 -
+2023-12-08 21:11:40,231:INFO:127.0.0.1 - - [08/Dec/2023 21:11:40] "[33mGET /cbg.jpeg HTTP/1.1[0m" 404 -
+2023-12-08 21:11:40,267:INFO:127.0.0.1 - - [08/Dec/2023 21:11:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-12-08 21:11:40,275:INFO:127.0.0.1 - - [08/Dec/2023 21:11:40] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 21:11:40,428:INFO:127.0.0.1 - - [08/Dec/2023 21:11:40] "GET / HTTP/1.1" 200 -
+2023-12-08 21:11:40,468:INFO:127.0.0.1 - - [08/Dec/2023 21:11:40] "[33mGET /cbg.jpeg HTTP/1.1[0m" 404 -
+2023-12-08 21:11:40,548:INFO:127.0.0.1 - - [08/Dec/2023 21:11:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-12-08 21:11:40,557:INFO:127.0.0.1 - - [08/Dec/2023 21:11:40] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 21:11:40,676:INFO:127.0.0.1 - - [08/Dec/2023 21:11:40] "GET / HTTP/1.1" 200 -
+2023-12-08 21:11:40,698:INFO:127.0.0.1 - - [08/Dec/2023 21:11:40] "[33mGET /cbg.jpeg HTTP/1.1[0m" 404 -
+2023-12-08 21:11:40,727:INFO:127.0.0.1 - - [08/Dec/2023 21:11:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-12-08 21:11:40,730:INFO:127.0.0.1 - - [08/Dec/2023 21:11:40] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 21:16:36,544:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-08 21:16:36,544:INFO:[33mPress CTRL+C to quit[0m
+2023-12-08 21:16:53,420:INFO:127.0.0.1 - - [08/Dec/2023 21:16:53] "GET / HTTP/1.1" 200 -
+2023-12-08 21:16:53,453:INFO:127.0.0.1 - - [08/Dec/2023 21:16:53] "[33mGET /ncbg.png HTTP/1.1[0m" 404 -
+2023-12-08 21:16:53,505:INFO:127.0.0.1 - - [08/Dec/2023 21:16:53] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 21:17:10,265:INFO:127.0.0.1 - - [08/Dec/2023 21:17:10] "GET /visualization HTTP/1.1" 200 -
+2023-12-08 21:17:10,326:INFO:127.0.0.1 - - [08/Dec/2023 21:17:10] "GET /data HTTP/1.1" 200 -
+2023-12-08 21:17:10,398:INFO:127.0.0.1 - - [08/Dec/2023 21:17:10] "GET /data HTTP/1.1" 200 -
+2023-12-08 21:18:48,968:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-08 21:18:48,968:INFO:[33mPress CTRL+C to quit[0m
+2023-12-08 21:18:52,174:INFO:127.0.0.1 - - [08/Dec/2023 21:18:52] "GET / HTTP/1.1" 200 -
+2023-12-08 21:18:52,278:INFO:127.0.0.1 - - [08/Dec/2023 21:18:52] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 21:18:53,421:INFO:127.0.0.1 - - [08/Dec/2023 21:18:53] "GET / HTTP/1.1" 200 -
+2023-12-08 21:18:53,506:INFO:127.0.0.1 - - [08/Dec/2023 21:18:53] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 21:18:53,625:INFO:127.0.0.1 - - [08/Dec/2023 21:18:53] "GET / HTTP/1.1" 200 -
+2023-12-08 21:18:53,754:INFO:127.0.0.1 - - [08/Dec/2023 21:18:53] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 21:18:53,836:INFO:127.0.0.1 - - [08/Dec/2023 21:18:53] "GET / HTTP/1.1" 200 -
+2023-12-08 21:18:53,958:INFO:127.0.0.1 - - [08/Dec/2023 21:18:53] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 21:18:54,037:INFO:127.0.0.1 - - [08/Dec/2023 21:18:54] "GET / HTTP/1.1" 200 -
+2023-12-08 21:18:54,110:INFO:127.0.0.1 - - [08/Dec/2023 21:18:54] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 21:18:54,252:INFO:127.0.0.1 - - [08/Dec/2023 21:18:54] "GET / HTTP/1.1" 200 -
+2023-12-08 21:18:54,304:INFO:127.0.0.1 - - [08/Dec/2023 21:18:54] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 21:18:54,463:INFO:127.0.0.1 - - [08/Dec/2023 21:18:54] "GET / HTTP/1.1" 200 -
+2023-12-08 21:18:54,555:INFO:127.0.0.1 - - [08/Dec/2023 21:18:54] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 21:18:54,608:INFO:127.0.0.1 - - [08/Dec/2023 21:18:54] "GET / HTTP/1.1" 200 -
+2023-12-08 21:18:54,725:INFO:127.0.0.1 - - [08/Dec/2023 21:18:54] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 21:18:54,779:INFO:127.0.0.1 - - [08/Dec/2023 21:18:54] "GET / HTTP/1.1" 200 -
+2023-12-08 21:18:54,864:INFO:127.0.0.1 - - [08/Dec/2023 21:18:54] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 21:18:54,986:INFO:127.0.0.1 - - [08/Dec/2023 21:18:54] "GET / HTTP/1.1" 200 -
+2023-12-08 21:18:55,040:INFO:127.0.0.1 - - [08/Dec/2023 21:18:55] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 21:18:55,162:INFO:127.0.0.1 - - [08/Dec/2023 21:18:55] "GET / HTTP/1.1" 200 -
+2023-12-08 21:18:55,224:INFO:127.0.0.1 - - [08/Dec/2023 21:18:55] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 21:18:55,316:INFO:127.0.0.1 - - [08/Dec/2023 21:18:55] "GET / HTTP/1.1" 200 -
+2023-12-08 21:18:55,370:INFO:127.0.0.1 - - [08/Dec/2023 21:18:55] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 21:18:55,514:INFO:127.0.0.1 - - [08/Dec/2023 21:18:55] "GET / HTTP/1.1" 200 -
+2023-12-08 21:18:55,569:INFO:127.0.0.1 - - [08/Dec/2023 21:18:55] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 21:18:55,692:INFO:127.0.0.1 - - [08/Dec/2023 21:18:55] "GET / HTTP/1.1" 200 -
+2023-12-08 21:18:55,754:INFO:127.0.0.1 - - [08/Dec/2023 21:18:55] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 21:18:55,997:INFO:127.0.0.1 - - [08/Dec/2023 21:18:55] "GET / HTTP/1.1" 200 -
+2023-12-08 21:18:56,078:INFO:127.0.0.1 - - [08/Dec/2023 21:18:56] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 21:18:56,167:INFO:127.0.0.1 - - [08/Dec/2023 21:18:56] "GET / HTTP/1.1" 200 -
+2023-12-08 21:18:56,213:INFO:127.0.0.1 - - [08/Dec/2023 21:18:56] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 21:18:56,356:INFO:127.0.0.1 - - [08/Dec/2023 21:18:56] "GET / HTTP/1.1" 200 -
+2023-12-08 21:18:56,438:INFO:127.0.0.1 - - [08/Dec/2023 21:18:56] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 21:18:56,513:INFO:127.0.0.1 - - [08/Dec/2023 21:18:56] "GET / HTTP/1.1" 200 -
+2023-12-08 21:18:56,563:INFO:127.0.0.1 - - [08/Dec/2023 21:18:56] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 21:18:56,686:INFO:127.0.0.1 - - [08/Dec/2023 21:18:56] "GET / HTTP/1.1" 200 -
+2023-12-08 21:18:56,737:INFO:127.0.0.1 - - [08/Dec/2023 21:18:56] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 21:18:56,830:INFO:127.0.0.1 - - [08/Dec/2023 21:18:56] "GET / HTTP/1.1" 200 -
+2023-12-08 21:18:56,880:INFO:127.0.0.1 - - [08/Dec/2023 21:18:56] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 21:18:56,993:INFO:127.0.0.1 - - [08/Dec/2023 21:18:56] "GET / HTTP/1.1" 200 -
+2023-12-08 21:18:57,058:INFO:127.0.0.1 - - [08/Dec/2023 21:18:57] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 21:18:57,151:INFO:127.0.0.1 - - [08/Dec/2023 21:18:57] "GET / HTTP/1.1" 200 -
+2023-12-08 21:18:57,195:INFO:127.0.0.1 - - [08/Dec/2023 21:18:57] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 21:18:57,298:INFO:127.0.0.1 - - [08/Dec/2023 21:18:57] "GET / HTTP/1.1" 200 -
+2023-12-08 21:18:57,363:INFO:127.0.0.1 - - [08/Dec/2023 21:18:57] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 21:18:57,461:INFO:127.0.0.1 - - [08/Dec/2023 21:18:57] "GET / HTTP/1.1" 200 -
+2023-12-08 21:18:57,508:INFO:127.0.0.1 - - [08/Dec/2023 21:18:57] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 21:18:57,618:INFO:127.0.0.1 - - [08/Dec/2023 21:18:57] "GET / HTTP/1.1" 200 -
+2023-12-08 21:18:57,675:INFO:127.0.0.1 - - [08/Dec/2023 21:18:57] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 21:18:57,745:INFO:127.0.0.1 - - [08/Dec/2023 21:18:57] "GET / HTTP/1.1" 200 -
+2023-12-08 21:18:57,809:INFO:127.0.0.1 - - [08/Dec/2023 21:18:57] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 21:18:57,890:INFO:127.0.0.1 - - [08/Dec/2023 21:18:57] "GET / HTTP/1.1" 200 -
+2023-12-08 21:18:57,936:INFO:127.0.0.1 - - [08/Dec/2023 21:18:57] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 21:18:58,144:INFO:127.0.0.1 - - [08/Dec/2023 21:18:58] "GET / HTTP/1.1" 200 -
+2023-12-08 21:18:58,193:INFO:127.0.0.1 - - [08/Dec/2023 21:18:58] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 21:18:58,364:INFO:127.0.0.1 - - [08/Dec/2023 21:18:58] "GET / HTTP/1.1" 200 -
+2023-12-08 21:18:58,443:INFO:127.0.0.1 - - [08/Dec/2023 21:18:58] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 21:19:04,238:INFO:127.0.0.1 - - [08/Dec/2023 21:19:04] "GET / HTTP/1.1" 200 -
+2023-12-08 21:19:04,353:INFO:127.0.0.1 - - [08/Dec/2023 21:19:04] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 21:20:40,733:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-08 21:20:40,733:INFO:[33mPress CTRL+C to quit[0m
+2023-12-08 21:20:41,787:INFO:127.0.0.1 - - [08/Dec/2023 21:20:41] "GET / HTTP/1.1" 200 -
+2023-12-08 21:20:41,843:INFO:127.0.0.1 - - [08/Dec/2023 21:20:41] "[33mGET /ncbg.png HTTP/1.1[0m" 404 -
+2023-12-08 21:20:41,888:INFO:127.0.0.1 - - [08/Dec/2023 21:20:41] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 21:25:38,499:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-08 21:25:38,499:INFO:[33mPress CTRL+C to quit[0m
+2023-12-08 21:25:41,127:INFO:127.0.0.1 - - [08/Dec/2023 21:25:41] "GET / HTTP/1.1" 200 -
+2023-12-08 21:25:41,279:INFO:127.0.0.1 - - [08/Dec/2023 21:25:41] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 21:28:08,992:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-08 21:28:08,992:INFO:[33mPress CTRL+C to quit[0m
+2023-12-08 21:28:18,928:INFO:127.0.0.1 - - [08/Dec/2023 21:28:18] "GET / HTTP/1.1" 200 -
+2023-12-08 21:28:19,035:INFO:127.0.0.1 - - [08/Dec/2023 21:28:19] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 21:28:22,320:INFO:127.0.0.1 - - [08/Dec/2023 21:28:22] "GET /visualization HTTP/1.1" 200 -
+2023-12-08 21:28:22,398:INFO:127.0.0.1 - - [08/Dec/2023 21:28:22] "GET /data HTTP/1.1" 200 -
+2023-12-08 21:28:22,452:INFO:127.0.0.1 - - [08/Dec/2023 21:28:22] "GET /data HTTP/1.1" 200 -
+2023-12-08 21:30:12,085:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-08 21:30:12,085:INFO:[33mPress CTRL+C to quit[0m
+2023-12-08 21:30:13,677:INFO:127.0.0.1 - - [08/Dec/2023 21:30:13] "GET / HTTP/1.1" 200 -
+2023-12-08 21:30:13,810:INFO:127.0.0.1 - - [08/Dec/2023 21:30:13] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 21:32:21,074:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-08 21:32:21,074:INFO:[33mPress CTRL+C to quit[0m
+2023-12-08 21:32:31,745:INFO:127.0.0.1 - - [08/Dec/2023 21:32:31] "GET / HTTP/1.1" 200 -
+2023-12-08 21:32:31,869:INFO:127.0.0.1 - - [08/Dec/2023 21:32:31] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 21:33:54,932:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-08 21:33:54,932:INFO:[33mPress CTRL+C to quit[0m
+2023-12-08 21:33:56,776:INFO:127.0.0.1 - - [08/Dec/2023 21:33:56] "GET / HTTP/1.1" 200 -
+2023-12-08 21:33:56,887:INFO:127.0.0.1 - - [08/Dec/2023 21:33:56] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 21:34:01,264:INFO:127.0.0.1 - - [08/Dec/2023 21:34:01] "GET /visualization HTTP/1.1" 200 -
+2023-12-08 21:34:01,324:INFO:127.0.0.1 - - [08/Dec/2023 21:34:01] "GET /data HTTP/1.1" 200 -
+2023-12-08 21:34:01,380:INFO:127.0.0.1 - - [08/Dec/2023 21:34:01] "GET /data HTTP/1.1" 200 -
+2023-12-08 21:36:07,075:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-08 21:36:07,075:INFO:[33mPress CTRL+C to quit[0m
+2023-12-08 21:36:11,417:INFO:127.0.0.1 - - [08/Dec/2023 21:36:11] "GET / HTTP/1.1" 200 -
+2023-12-08 21:36:11,531:INFO:127.0.0.1 - - [08/Dec/2023 21:36:11] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 21:36:19,631:INFO:127.0.0.1 - - [08/Dec/2023 21:36:19] "GET /visualization HTTP/1.1" 200 -
+2023-12-08 21:36:19,688:INFO:127.0.0.1 - - [08/Dec/2023 21:36:19] "GET /data HTTP/1.1" 200 -
+2023-12-08 21:36:19,750:INFO:127.0.0.1 - - [08/Dec/2023 21:36:19] "GET /data HTTP/1.1" 200 -
+2023-12-08 21:37:10,106:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-08 21:37:10,106:INFO:[33mPress CTRL+C to quit[0m
+2023-12-08 21:37:13,974:INFO:127.0.0.1 - - [08/Dec/2023 21:37:13] "GET / HTTP/1.1" 200 -
+2023-12-08 21:37:14,119:INFO:127.0.0.1 - - [08/Dec/2023 21:37:14] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 21:37:44,343:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-08 21:37:44,343:INFO:[33mPress CTRL+C to quit[0m
+2023-12-08 21:37:46,428:INFO:127.0.0.1 - - [08/Dec/2023 21:37:46] "GET / HTTP/1.1" 200 -
+2023-12-08 21:37:46,545:INFO:127.0.0.1 - - [08/Dec/2023 21:37:46] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 21:37:49,884:INFO:127.0.0.1 - - [08/Dec/2023 21:37:49] "GET /visualization HTTP/1.1" 200 -
+2023-12-08 21:37:49,918:INFO:127.0.0.1 - - [08/Dec/2023 21:37:49] "GET /data HTTP/1.1" 200 -
+2023-12-08 21:37:49,966:INFO:127.0.0.1 - - [08/Dec/2023 21:37:49] "GET /data HTTP/1.1" 200 -
+2023-12-08 21:42:07,151:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-08 21:42:07,151:INFO:[33mPress CTRL+C to quit[0m
+2023-12-08 21:42:09,916:INFO:127.0.0.1 - - [08/Dec/2023 21:42:09] "GET / HTTP/1.1" 200 -
+2023-12-08 21:42:10,050:INFO:127.0.0.1 - - [08/Dec/2023 21:42:10] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 21:42:11,451:INFO:127.0.0.1 - - [08/Dec/2023 21:42:11] "GET /visualization HTTP/1.1" 200 -
+2023-12-08 21:42:11,532:INFO:127.0.0.1 - - [08/Dec/2023 21:42:11] "GET /data HTTP/1.1" 200 -
+2023-12-08 21:42:11,609:INFO:127.0.0.1 - - [08/Dec/2023 21:42:11] "GET /data HTTP/1.1" 200 -
+2023-12-08 21:42:36,558:INFO:127.0.0.1 - - [08/Dec/2023 21:42:36] "GET /visualization HTTP/1.1" 200 -
+2023-12-08 21:42:36,602:INFO:127.0.0.1 - - [08/Dec/2023 21:42:36] "GET /data HTTP/1.1" 200 -
+2023-12-08 21:42:36,631:INFO:127.0.0.1 - - [08/Dec/2023 21:42:36] "GET /data HTTP/1.1" 200 -
+2023-12-08 21:52:10,744:INFO:127.0.0.1 - - [08/Dec/2023 21:52:10] "POST /chat HTTP/1.1" 200 -
+2023-12-08 21:52:41,206:ERROR:API request failed with status code 503
+2023-12-08 21:52:41,219:INFO:127.0.0.1 - - [08/Dec/2023 21:52:41] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2023-12-08 21:52:51,891:ERROR:API request failed with status code 503
+2023-12-08 21:52:51,891:INFO:127.0.0.1 - - [08/Dec/2023 21:52:51] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2023-12-08 21:53:14,607:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-08 21:53:14,607:INFO:[33mPress CTRL+C to quit[0m
+2023-12-08 21:53:14,693:INFO:127.0.0.1 - - [08/Dec/2023 21:53:14] "GET / HTTP/1.1" 200 -
+2023-12-08 21:53:14,952:INFO:127.0.0.1 - - [08/Dec/2023 21:53:14] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 21:53:36,901:INFO:127.0.0.1 - - [08/Dec/2023 21:53:36] "POST /chat HTTP/1.1" 200 -
+2023-12-08 21:55:20,324:INFO:127.0.0.1 - - [08/Dec/2023 21:55:20] "POST /chat HTTP/1.1" 200 -
+2023-12-08 21:55:53,417:INFO:127.0.0.1 - - [08/Dec/2023 21:55:53] "GET /visualization HTTP/1.1" 200 -
+2023-12-08 21:55:53,504:INFO:127.0.0.1 - - [08/Dec/2023 21:55:53] "GET /data HTTP/1.1" 200 -
+2023-12-08 21:55:53,553:INFO:127.0.0.1 - - [08/Dec/2023 21:55:53] "GET /data HTTP/1.1" 200 -
+2023-12-08 22:40:13,195:INFO:127.0.0.1 - - [08/Dec/2023 22:40:13] "GET /visualization HTTP/1.1" 200 -
+2023-12-08 22:40:13,293:INFO:127.0.0.1 - - [08/Dec/2023 22:40:13] "GET /data HTTP/1.1" 200 -
+2023-12-08 22:40:13,353:INFO:127.0.0.1 - - [08/Dec/2023 22:40:13] "GET /data HTTP/1.1" 200 -
+2023-12-08 22:43:28,770:INFO:127.0.0.1 - - [08/Dec/2023 22:43:28] "GET / HTTP/1.1" 200 -
+2023-12-08 22:43:28,896:INFO:127.0.0.1 - - [08/Dec/2023 22:43:28] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 22:43:44,659:INFO:127.0.0.1 - - [08/Dec/2023 22:43:44] "POST /chat HTTP/1.1" 200 -
+2023-12-08 22:43:48,074:INFO:127.0.0.1 - - [08/Dec/2023 22:43:48] "GET /visualization HTTP/1.1" 200 -
+2023-12-08 22:43:48,139:INFO:127.0.0.1 - - [08/Dec/2023 22:43:48] "GET /data HTTP/1.1" 200 -
+2023-12-08 22:43:48,179:INFO:127.0.0.1 - - [08/Dec/2023 22:43:48] "GET /data HTTP/1.1" 200 -
+2023-12-08 23:43:26,920:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-08 23:43:26,920:INFO:[33mPress CTRL+C to quit[0m
+2023-12-08 23:43:34,888:INFO:127.0.0.1 - - [08/Dec/2023 23:43:34] "GET / HTTP/1.1" 200 -
+2023-12-08 23:43:35,143:INFO:127.0.0.1 - - [08/Dec/2023 23:43:35] "GET /get-topics HTTP/1.1" 200 -
+2023-12-08 23:43:49,367:INFO:127.0.0.1 - - [08/Dec/2023 23:43:49] "POST /chat HTTP/1.1" 200 -
+2023-12-08 23:45:11,423:ERROR:index 0 is out of bounds for axis 0 with size 0
+2023-12-08 23:45:11,423:INFO:127.0.0.1 - - [08/Dec/2023 23:45:11] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2023-12-08 23:45:28,454:INFO:127.0.0.1 - - [08/Dec/2023 23:45:28] "POST /chat HTTP/1.1" 200 -
+2023-12-08 23:46:08,981:INFO:127.0.0.1 - - [08/Dec/2023 23:46:08] "POST /chat HTTP/1.1" 200 -
+2023-12-08 23:46:22,222:INFO:127.0.0.1 - - [08/Dec/2023 23:46:22] "POST /chat HTTP/1.1" 200 -
+2023-12-08 23:48:43,124:INFO:127.0.0.1 - - [08/Dec/2023 23:48:43] "POST /chat HTTP/1.1" 200 -
+2023-12-08 23:49:03,632:INFO:127.0.0.1 - - [08/Dec/2023 23:49:03] "POST /chat HTTP/1.1" 200 -
+2023-12-09 16:52:18,265:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-09 16:52:18,265:INFO:[33mPress CTRL+C to quit[0m
+2023-12-09 16:52:33,958:INFO:127.0.0.1 - - [09/Dec/2023 16:52:33] "GET / HTTP/1.1" 200 -
+2023-12-09 16:52:34,100:INFO:127.0.0.1 - - [09/Dec/2023 16:52:34] "GET /get-topics HTTP/1.1" 200 -
+2023-12-09 16:52:45,945:INFO:127.0.0.1 - - [09/Dec/2023 16:52:45] "POST /chat HTTP/1.1" 200 -
+2023-12-09 16:53:17,929:INFO:127.0.0.1 - - [09/Dec/2023 16:53:17] "POST /chat HTTP/1.1" 200 -
+2023-12-09 16:53:35,965:INFO:127.0.0.1 - - [09/Dec/2023 16:53:35] "GET /visualization HTTP/1.1" 200 -
+2023-12-09 16:53:36,304:INFO:127.0.0.1 - - [09/Dec/2023 16:53:36] "GET /data HTTP/1.1" 200 -
+2023-12-09 16:53:36,475:INFO:127.0.0.1 - - [09/Dec/2023 16:53:36] "GET /data HTTP/1.1" 200 -
+2023-12-09 16:53:38,685:INFO:127.0.0.1 - - [09/Dec/2023 16:53:38] "POST /chat HTTP/1.1" 200 -
+2023-12-09 16:53:50,712:INFO:127.0.0.1 - - [09/Dec/2023 16:53:50] "POST /chat HTTP/1.1" 200 -
+2023-12-09 16:54:21,418:INFO:127.0.0.1 - - [09/Dec/2023 16:54:21] "POST /chat HTTP/1.1" 200 -
+2023-12-09 16:55:11,404:INFO:127.0.0.1 - - [09/Dec/2023 16:55:11] "POST /chat HTTP/1.1" 200 -
+2023-12-09 16:55:25,057:INFO:127.0.0.1 - - [09/Dec/2023 16:55:25] "POST /chat HTTP/1.1" 200 -
+2023-12-09 16:55:42,240:INFO:127.0.0.1 - - [09/Dec/2023 16:55:42] "POST /chat HTTP/1.1" 200 -
+2023-12-09 16:55:56,162:INFO:127.0.0.1 - - [09/Dec/2023 16:55:56] "POST /chat HTTP/1.1" 200 -
+2023-12-09 16:56:17,295:ERROR:API request failed with status code 503
+2023-12-09 16:56:17,295:INFO:127.0.0.1 - - [09/Dec/2023 16:56:17] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2023-12-09 16:56:39,979:INFO:127.0.0.1 - - [09/Dec/2023 16:56:39] "POST /chat HTTP/1.1" 200 -
+2023-12-09 16:57:00,210:INFO:127.0.0.1 - - [09/Dec/2023 16:57:00] "POST /chat HTTP/1.1" 200 -
+2023-12-09 16:57:20,630:INFO:127.0.0.1 - - [09/Dec/2023 16:57:20] "POST /chat HTTP/1.1" 200 -
+2023-12-09 16:57:38,550:INFO:127.0.0.1 - - [09/Dec/2023 16:57:38] "POST /chat HTTP/1.1" 200 -
+2023-12-09 16:58:04,973:INFO:127.0.0.1 - - [09/Dec/2023 16:58:04] "POST /chat HTTP/1.1" 200 -
+2023-12-09 16:59:28,437:INFO:127.0.0.1 - - [09/Dec/2023 16:59:28] "POST /chat HTTP/1.1" 200 -
+2023-12-09 17:00:07,373:INFO:127.0.0.1 - - [09/Dec/2023 17:00:07] "GET /visualization HTTP/1.1" 200 -
+2023-12-09 17:00:07,436:INFO:127.0.0.1 - - [09/Dec/2023 17:00:07] "GET /data HTTP/1.1" 200 -
+2023-12-09 17:00:07,538:INFO:127.0.0.1 - - [09/Dec/2023 17:00:07] "GET /data HTTP/1.1" 200 -
+2023-12-09 18:07:50,016:ERROR:index 0 is out of bounds for axis 0 with size 0
+2023-12-09 18:07:50,023:INFO:127.0.0.1 - - [09/Dec/2023 18:07:50] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2023-12-09 18:08:01,444:ERROR:API request failed with status code 503
+2023-12-09 18:08:01,449:INFO:127.0.0.1 - - [09/Dec/2023 18:08:01] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2023-12-09 18:08:12,915:ERROR:API request failed with status code 503
+2023-12-09 18:08:12,915:INFO:127.0.0.1 - - [09/Dec/2023 18:08:12] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2023-12-09 18:08:55,946:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-09 18:08:55,946:INFO:[33mPress CTRL+C to quit[0m
+2023-12-09 18:09:20,269:INFO:127.0.0.1 - - [09/Dec/2023 18:09:20] "GET / HTTP/1.1" 200 -
+2023-12-09 18:09:20,374:INFO:127.0.0.1 - - [09/Dec/2023 18:09:20] "GET /get-topics HTTP/1.1" 200 -
+2023-12-09 18:09:38,581:ERROR:index 0 is out of bounds for axis 0 with size 0
+2023-12-09 18:09:38,597:INFO:127.0.0.1 - - [09/Dec/2023 18:09:38] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2023-12-09 18:11:14,235:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-09 18:11:14,235:INFO:[33mPress CTRL+C to quit[0m
+2023-12-09 18:11:17,917:INFO:127.0.0.1 - - [09/Dec/2023 18:11:17] "GET / HTTP/1.1" 200 -
+2023-12-09 18:11:18,051:INFO:127.0.0.1 - - [09/Dec/2023 18:11:18] "GET /get-topics HTTP/1.1" 200 -
+2023-12-09 18:11:36,807:INFO:127.0.0.1 - - [09/Dec/2023 18:11:36] "POST /chat HTTP/1.1" 200 -
+2023-12-09 18:14:49,610:INFO:127.0.0.1 - - [09/Dec/2023 18:14:49] "GET /visualization HTTP/1.1" 200 -
+2023-12-09 18:14:49,701:INFO:127.0.0.1 - - [09/Dec/2023 18:14:49] "GET /data HTTP/1.1" 200 -
+2023-12-09 18:14:49,786:INFO:127.0.0.1 - - [09/Dec/2023 18:14:49] "GET /data HTTP/1.1" 200 -
+2023-12-09 20:27:27,667:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-09 20:27:27,667:INFO:[33mPress CTRL+C to quit[0m
+2023-12-09 20:27:30,273:INFO:127.0.0.1 - - [09/Dec/2023 20:27:30] "GET /visualization HTTP/1.1" 200 -
+2023-12-09 20:27:30,618:INFO:127.0.0.1 - - [09/Dec/2023 20:27:30] "GET /data HTTP/1.1" 200 -
+2023-12-09 20:27:30,630:INFO:127.0.0.1 - - [09/Dec/2023 20:27:30] "GET /data HTTP/1.1" 200 -
+2023-12-09 20:30:53,603:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-09 20:30:53,603:INFO:[33mPress CTRL+C to quit[0m
+2023-12-09 20:30:55,790:INFO:127.0.0.1 - - [09/Dec/2023 20:30:55] "GET /visualization HTTP/1.1" 200 -
+2023-12-09 20:30:55,853:INFO:127.0.0.1 - - [09/Dec/2023 20:30:55] "GET /data HTTP/1.1" 200 -
+2023-12-09 20:30:55,926:INFO:127.0.0.1 - - [09/Dec/2023 20:30:55] "GET /data HTTP/1.1" 200 -
+2023-12-09 20:32:30,940:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-09 20:32:30,940:INFO:[33mPress CTRL+C to quit[0m
+2023-12-09 20:32:32,253:INFO:127.0.0.1 - - [09/Dec/2023 20:32:32] "GET /visualization HTTP/1.1" 200 -
+2023-12-09 20:32:32,338:INFO:127.0.0.1 - - [09/Dec/2023 20:32:32] "GET /data HTTP/1.1" 200 -
+2023-12-09 20:32:32,453:INFO:127.0.0.1 - - [09/Dec/2023 20:32:32] "GET /data HTTP/1.1" 200 -
+2023-12-09 20:32:41,580:INFO:127.0.0.1 - - [09/Dec/2023 20:32:41] "GET /visualization HTTP/1.1" 200 -
+2023-12-09 20:32:41,637:INFO:127.0.0.1 - - [09/Dec/2023 20:32:41] "GET /data HTTP/1.1" 200 -
+2023-12-09 20:32:41,686:INFO:127.0.0.1 - - [09/Dec/2023 20:32:41] "GET /data HTTP/1.1" 200 -
+2023-12-09 20:38:29,244:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-09 20:38:29,244:INFO:[33mPress CTRL+C to quit[0m
+2023-12-09 20:38:32,650:INFO:127.0.0.1 - - [09/Dec/2023 20:38:32] "GET /visualization HTTP/1.1" 200 -
+2023-12-09 20:38:32,733:INFO:127.0.0.1 - - [09/Dec/2023 20:38:32] "GET /data HTTP/1.1" 200 -
+2023-12-09 20:38:32,864:INFO:127.0.0.1 - - [09/Dec/2023 20:38:32] "GET /data HTTP/1.1" 200 -
+2023-12-09 20:39:15,881:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-09 20:39:15,881:INFO:[33mPress CTRL+C to quit[0m
+2023-12-09 20:39:30,255:INFO:127.0.0.1 - - [09/Dec/2023 20:39:30] "GET /visualization HTTP/1.1" 200 -
+2023-12-09 20:39:30,332:INFO:127.0.0.1 - - [09/Dec/2023 20:39:30] "GET /data HTTP/1.1" 200 -
+2023-12-09 20:39:30,424:INFO:127.0.0.1 - - [09/Dec/2023 20:39:30] "GET /data HTTP/1.1" 200 -
+2023-12-09 20:40:09,475:INFO:127.0.0.1 - - [09/Dec/2023 20:40:09] "POST /chat HTTP/1.1" 200 -
+2023-12-09 20:40:37,455:INFO:127.0.0.1 - - [09/Dec/2023 20:40:37] "POST /chat HTTP/1.1" 200 -
+2023-12-09 20:41:05,777:INFO:127.0.0.1 - - [09/Dec/2023 20:41:05] "POST /chat HTTP/1.1" 200 -
+2023-12-09 20:41:51,996:INFO:127.0.0.1 - - [09/Dec/2023 20:41:51] "POST /chat HTTP/1.1" 200 -
+2023-12-09 20:42:14,639:INFO:127.0.0.1 - - [09/Dec/2023 20:42:14] "POST /chat HTTP/1.1" 200 -
+2023-12-09 20:43:25,817:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-09 20:43:25,817:INFO:[33mPress CTRL+C to quit[0m
+2023-12-09 20:43:27,735:INFO:127.0.0.1 - - [09/Dec/2023 20:43:27] "GET / HTTP/1.1" 200 -
+2023-12-09 20:43:27,883:INFO:127.0.0.1 - - [09/Dec/2023 20:43:27] "GET /get-topics HTTP/1.1" 200 -
+2023-12-09 20:43:29,781:INFO:127.0.0.1 - - [09/Dec/2023 20:43:29] "GET /visualization HTTP/1.1" 200 -
+2023-12-09 20:43:29,834:INFO:127.0.0.1 - - [09/Dec/2023 20:43:29] "GET /data HTTP/1.1" 200 -
+2023-12-09 20:43:29,898:INFO:127.0.0.1 - - [09/Dec/2023 20:43:29] "GET /data HTTP/1.1" 200 -
+2023-12-09 20:45:22,363:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-09 20:45:22,363:INFO:[33mPress CTRL+C to quit[0m
+2023-12-09 20:45:25,305:INFO:127.0.0.1 - - [09/Dec/2023 20:45:25] "GET /visualization HTTP/1.1" 200 -
+2023-12-09 20:45:25,390:INFO:127.0.0.1 - - [09/Dec/2023 20:45:25] "GET /data HTTP/1.1" 200 -
+2023-12-09 20:45:25,577:INFO:127.0.0.1 - - [09/Dec/2023 20:45:25] "GET /data HTTP/1.1" 200 -
+2023-12-09 20:47:15,680:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-09 20:47:15,680:INFO:[33mPress CTRL+C to quit[0m
+2023-12-09 20:47:40,110:INFO:127.0.0.1 - - [09/Dec/2023 20:47:40] "GET /visualization HTTP/1.1" 200 -
+2023-12-09 20:47:40,194:INFO:127.0.0.1 - - [09/Dec/2023 20:47:40] "GET /data HTTP/1.1" 200 -
+2023-12-09 20:47:40,353:INFO:127.0.0.1 - - [09/Dec/2023 20:47:40] "GET /data HTTP/1.1" 200 -
+2023-12-09 20:49:18,286:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-09 20:49:18,286:INFO:[33mPress CTRL+C to quit[0m
+2023-12-09 20:49:20,035:INFO:127.0.0.1 - - [09/Dec/2023 20:49:20] "GET /visualization HTTP/1.1" 200 -
+2023-12-09 20:49:20,102:INFO:127.0.0.1 - - [09/Dec/2023 20:49:20] "GET /data HTTP/1.1" 200 -
+2023-12-09 20:49:20,204:INFO:127.0.0.1 - - [09/Dec/2023 20:49:20] "GET /data HTTP/1.1" 200 -
+2023-12-09 20:51:15,979:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-09 20:51:15,979:INFO:[33mPress CTRL+C to quit[0m
+2023-12-09 20:51:20,191:INFO:127.0.0.1 - - [09/Dec/2023 20:51:20] "GET /visualization HTTP/1.1" 200 -
+2023-12-09 20:51:20,246:INFO:127.0.0.1 - - [09/Dec/2023 20:51:20] "GET /data HTTP/1.1" 200 -
+2023-12-09 20:51:20,379:INFO:127.0.0.1 - - [09/Dec/2023 20:51:20] "GET /data HTTP/1.1" 200 -
+2023-12-09 20:52:07,303:ERROR:API request failed with status code 503
+2023-12-09 20:52:07,308:INFO:127.0.0.1 - - [09/Dec/2023 20:52:07] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2023-12-09 20:52:14,466:ERROR:API request failed with status code 503
+2023-12-09 20:52:14,466:INFO:127.0.0.1 - - [09/Dec/2023 20:52:14] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2023-12-09 20:52:30,005:ERROR:Classifier returned no labels.
+2023-12-09 20:52:30,017:INFO:127.0.0.1 - - [09/Dec/2023 20:52:30] "[35m[1mPOST /chat HTTP/1.1[0m" 500 -
+2023-12-09 20:52:52,050:INFO:127.0.0.1 - - [09/Dec/2023 20:52:52] "POST /chat HTTP/1.1" 200 -
+2023-12-09 20:52:59,206:INFO:127.0.0.1 - - [09/Dec/2023 20:52:59] "GET / HTTP/1.1" 200 -
+2023-12-09 20:52:59,308:INFO:127.0.0.1 - - [09/Dec/2023 20:52:59] "GET /get-topics HTTP/1.1" 200 -
+2023-12-09 20:53:00,754:INFO:127.0.0.1 - - [09/Dec/2023 20:53:00] "GET /visualization HTTP/1.1" 200 -
+2023-12-09 20:53:00,817:INFO:127.0.0.1 - - [09/Dec/2023 20:53:00] "GET /data HTTP/1.1" 200 -
+2023-12-09 20:53:00,874:INFO:127.0.0.1 - - [09/Dec/2023 20:53:00] "GET /data HTTP/1.1" 200 -
+2023-12-09 20:53:17,272:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-09 20:53:17,272:INFO:[33mPress CTRL+C to quit[0m
+2023-12-09 20:53:18,355:INFO:127.0.0.1 - - [09/Dec/2023 20:53:18] "GET /visualization HTTP/1.1" 200 -
+2023-12-09 20:53:18,446:INFO:127.0.0.1 - - [09/Dec/2023 20:53:18] "GET /data HTTP/1.1" 200 -
+2023-12-09 20:53:18,565:INFO:127.0.0.1 - - [09/Dec/2023 20:53:18] "GET /data HTTP/1.1" 200 -
+2023-12-09 20:56:06,926:INFO:127.0.0.1 - - [09/Dec/2023 20:56:06] "GET /data HTTP/1.1" 200 -
+2023-12-09 20:56:07,115:INFO:127.0.0.1 - - [09/Dec/2023 20:56:07] "GET /data HTTP/1.1" 200 -
+2023-12-09 20:56:07,534:INFO:127.0.0.1 - - [09/Dec/2023 20:56:07] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2023-12-09 20:58:52,951:INFO:127.0.0.1 - - [09/Dec/2023 20:58:52] "GET /visualization HTTP/1.1" 200 -
+2023-12-09 20:58:53,046:INFO:127.0.0.1 - - [09/Dec/2023 20:58:53] "GET /data HTTP/1.1" 200 -
+2023-12-09 20:58:53,210:INFO:127.0.0.1 - - [09/Dec/2023 20:58:53] "GET /data HTTP/1.1" 200 -
+2023-12-09 21:02:57,377:INFO:127.0.0.1 - - [09/Dec/2023 21:02:57] "GET /get-topics HTTP/1.1" 200 -
+2023-12-09 21:14:37,920:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-09 21:14:37,925:INFO:[33mPress CTRL+C to quit[0m
+2023-12-09 21:14:42,603:INFO:127.0.0.1 - - [09/Dec/2023 21:14:42] "GET / HTTP/1.1" 200 -
+2023-12-09 21:14:42,758:INFO:127.0.0.1 - - [09/Dec/2023 21:14:42] "GET /get-topics HTTP/1.1" 200 -
+2023-12-09 21:15:01,895:INFO:127.0.0.1 - - [09/Dec/2023 21:15:01] "POST /chat HTTP/1.1" 200 -
+2023-12-09 21:15:24,040:INFO:127.0.0.1 - - [09/Dec/2023 21:15:24] "POST /chat HTTP/1.1" 200 -
+2023-12-09 21:15:56,635:INFO:127.0.0.1 - - [09/Dec/2023 21:15:56] "POST /chat HTTP/1.1" 200 -
+2023-12-09 21:16:17,408:INFO:127.0.0.1 - - [09/Dec/2023 21:16:17] "POST /chat HTTP/1.1" 200 -
+2023-12-09 21:16:40,081:INFO:127.0.0.1 - - [09/Dec/2023 21:16:40] "POST /chat HTTP/1.1" 200 -
+2023-12-09 21:18:50,329:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-09 21:18:50,329:INFO:[33mPress CTRL+C to quit[0m
+2023-12-09 21:18:50,556:INFO:127.0.0.1 - - [09/Dec/2023 21:18:50] "GET / HTTP/1.1" 200 -
+2023-12-09 21:18:50,662:INFO:127.0.0.1 - - [09/Dec/2023 21:18:50] "GET /get-topics HTTP/1.1" 200 -
+2023-12-09 21:19:04,153:INFO:127.0.0.1 - - [09/Dec/2023 21:19:04] "POST /chat HTTP/1.1" 200 -
+2023-12-09 21:19:11,078:INFO:127.0.0.1 - - [09/Dec/2023 21:19:11] "POST /chat HTTP/1.1" 200 -
+2023-12-09 21:19:50,513:INFO:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2023-12-09 21:19:50,513:INFO:[33mPress CTRL+C to quit[0m
+2023-12-09 21:19:51,673:INFO:127.0.0.1 - - [09/Dec/2023 21:19:51] "GET /visualization HTTP/1.1" 200 -
+2023-12-09 21:19:51,731:INFO:127.0.0.1 - - [09/Dec/2023 21:19:51] "GET /data HTTP/1.1" 200 -
+2023-12-09 21:19:51,857:INFO:127.0.0.1 - - [09/Dec/2023 21:19:51] "GET /data HTTP/1.1" 200 -
