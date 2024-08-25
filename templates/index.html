@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot Interface</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #d5d5d5;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        #wrapper {
+            display: flex;
+            width: 800px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            overflow: hidden;
+            max-height: 100vh; /* Limit the height to the viewport */
+        }
+        #chat-container {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+            background-color: white;
+            width: 600px; /* Or any other width */
+            overflow: hidden; /* Prevents overflow */
+        }
+        #messages {
+            overflow-y: auto;
+            padding: 10px 15px;
+            margin-bottom: 70px; /* Adjust this value to be the height of your input container */
+            flex-grow: 1;
+            max-height: calc(100vh - 120px); /* Adjust this value to the correct height of your input container */
+        }
+
+        .message {
+            border-radius: 18px;
+            padding: 10px 20px;
+            margin: 5px 0;
+            margin-bottom: 10px;
+            line-height: 1.4;
+            width: fit-content; /* This will make the bubble's width depend on the content */
+            word-wrap: break-word;
+            position: relative; /* Needed for pseudo-elements (for the tails) */
+        }
+        .bot {
+            background-color: #e9e9e9; /* Light grey background for bot messages */
+            text-align: left; /* Text aligned to the left within the bubble */
+            align-self: flex-start; /* Align to the left side for bot messages */
+            margin-right: auto;
+            border-radius: 20px; /* Rounded corners for the bubble */
+            padding: 10px 20px; /* Padding inside the bubble */
+            margin-right: auto; /* Push the bubble to the left */
+            max-width: 60%; /* Maximum width of the bubble */
+            word-wrap: break-word; /* Prevents long words from breaking the bubble's bounds */
+            box-shadow: 0 2px 5px 0 rgba(0,0,0,0.25); /* Optional: Adds shadow for depth */
+        }
+
+    
+        /* Bot message tail using pseudo-element */
+        .bot::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 0;
+            left: -8px; /* Tail size */
+            top: 20px; /* Tail position */
+            border: 10px solid;
+            border-color: transparent #e9e9e9 transparent transparent;
+        }
+    
+        /* User message styles */
+        .user {
+            background-color: #ffd700; /* Yellow background color */
+            color: black; /* Text color */
+            align-self: flex-end; /* Align to the right side for user messages */
+            text-align: right; /* Text aligned to the right within the bubble */
+            margin-left: auto; /* Push the bubble to the right */
+            margin-right: 20px; /* Right margin for spacing */
+            padding: 10px 20px; /* Padding inside the bubble */
+            border-radius: 20px; /* Rounded corners for the bubble */
+            box-shadow: 0 2px 5px 0 rgba(0,0,0,0.25); /* Optional: Adds shadow for depth */
+            max-width: 40%; /* Maximum width of the bubble */
+            word-wrap: break-word; /* Prevents long words from breaking the bubble's bounds */
+        }
+    
+        /* User message tail using pseudo-element */
+        .user::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 0;
+            right: -8px; /* Tail size */
+            top: 20px; /* Tail position */
+            border: 10px solid;
+            border-color: transparent transparent transparent #ffd700;
+        }
+        #input-container {
+            width: calc(100% - 20px); /* Full width minus padding */
+            padding: 10px;
+            display: flex;
+            justify-content: space-between; /* Space out the input and button */
+            position: absolute; /* Absolute positioning relative to the chat-container */
+            bottom: 0; /* Align to the bottom of the chat-container */
+            left: 50%; /* Start at half the width of the chat-container */
+            transform: translateX(0%); /* Center the container */
+            background-color: white;
+            z-index: 2; /* Ensures it's above other elements */
+            box-shadow: 0 -2px 5px rgba(0,0,0,0.2); /* Adds a shadow for depth */
+            border-radius: 20px; /* Rounded corners */
+        }
+
+        #input-container input {
+            flex-grow: 1; /* Allow input to grow and fill available space */
+            margin-right: 10px; /* Adjust space between input and button */
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 20px;
+            outline: none;
+        }
+
+        #input-container button {
+            padding: 10px 20px;
+            border: none;
+            background-color: #fbdb29;
+            color: white;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+
+        #sidebar {
+            width: 200px; /* Adjusted width */
+            background: #f2f2f2;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            overflow-y: auto; /* Allows the sidebar to scroll independently */
+            height: calc(100vh - 20px); /* Full height of viewport minus any header/footer */
+            box-sizing: border-box; /* Includes padding in height calculation */
+        }
+
+        #sidebar h3 {
+            margin-top: 0;
+        }
+        #sidebar label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        #sidebar label input {
+            margin-right: 5px;
+        }
+        #input-container {
+            padding: 10px;
+            display: flex; 
+            border-top: 1px solid #ddd;
+            position: absolute;
+            bottom: 0; /* Stick to the bottom */
+            left: 0; /* Align to the left */
+            right: 0; /* Align to the right */
+        }
+
+        #input-container input {
+            display: flex; 
+            margin-right: 5px;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 20px;
+            outline: none;
+        }
+
+        #input-container button {
+            padding: 10px 20px;
+            border: none;
+            background-color: #fbdb29;
+            color: white;
+            border-radius: 20px;
+            cursor: pointer;
+        }
+        #visualization-btn {
+            /* Adjust or remove the previous fixed positioning styles */
+            padding: 10px 20px;
+            background-color: #4CAF50; /* Background color */
+            color: white; /* Text color */
+            border: none; /* No border */
+            border-radius: 5px; /* Rounded corners */
+            cursor: pointer; /* Pointer cursor on hover */
+            width: 100%; /* Make the button extend the full width of the sidebar */
+            box-sizing: border-box; /* Include padding and border in the width */
+            margin-bottom: 10px; /* Add space below the button */
+            /* No need for fixed position, top, or right properties */
+        }
+
+
+    </style>
+</head>
+<body>
+    <!-- <button id="visualization-btn">Go to Visualization</button> -->
+    
+    <div id="wrapper">
+        <div id="chat-container">
+            <div id="messages">
+                <!-- Chat messages will appear here -->
+            </div>
+            <div id="input-container">
+                <input type="text" id="user-input" placeholder="Type your message here..." onkeyup="if(event.keyCode === 13) sendMessage()">
+                <button onclick="sendMessage()">Send</button>
+            </div>
+        </div>
+        <div id="sidebar">
+            <button id="visualization-btn">Go to Visualization</button> <!-- Make sure this is the only button with this ID -->
+            <h3>Topics</h3>
+            <div id="topics">
+                <!-- Topics will be loaded here -->
+            </div>
+            <button onclick="confirmTermination()" style="margin-top:auto;">Terminate Chat</button>
+        </div>
+    </div>
+
+    <script>
+document.getElementById('visualization-btn').addEventListener('click', function() {
+    window.location.href = '/visualization';
+});
+        
+        var selectedTopics = [];
+        function adjustChatContainerHeight() {
+            var chatContainer = document.getElementById("chat-container");
+            var inputContainerHeight = document.getElementById("input-container").offsetHeight;
+            var windowHeight = window.innerHeight;
+            var adjustedHeight = windowHeight - inputContainerHeight;
+            chatContainer.style.height = adjustedHeight + 'px';
+        }
+        
+        function loadTopics() {
+            fetch('/get-topics')
+                .then(response => response.json())
+                .then(topics => {
+                    var topicsContainer = document.getElementById("topics");
+                    topics.forEach(topic => {
+                        var label = document.createElement("label");
+                        var checkbox = document.createElement("input");
+                        checkbox.type = "checkbox";
+                        checkbox.value = topic;
+                        checkbox.onchange = function() {
+                            updateSelectedTopics(this.value, this.checked);
+                        };
+                        label.appendChild(checkbox);
+                        label.appendChild(document.createTextNode(topic));
+                        topicsContainer.appendChild(label);
+                    });
+                    adjustChatContainerHeight(); // Adjust chat container height after loading topics
+                });
+        }
+
+
+    
+        function updateSelectedTopics(topic, isChecked) {
+            if (isChecked) {
+                selectedTopics.push(topic);
+            } else {
+                selectedTopics = selectedTopics.filter(t => t !== topic);
+            }
+            adjustChatContainerHeight(); // Adjust chat container height after topic selection
+
+        }
+    
+        function sendMessage() {
+            var input = document.getElementById("user-input");
+            var message = input.value.trim();
+            if (message === "") return;
+            displayMessage(message, "user");
+            input.value = "";
+            fetch('/chat', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ query: message, topics: selectedTopics }),
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.error) {
+                    handleChatError(true, data.response); // Pass the error message to handleChatError
+                } else {
+                    displayMessage(data.response, "bot");
+                }
+            })
+            .catch(error => {
+                displayMessage("Error: " + error, "bot");
+            });
+        }
+    
+        function displayMessage(message, sender) {
+            var messagesContainer = document.getElementById("messages");
+            var msgDiv = document.createElement("div");
+            msgDiv.classList.add("message", sender);
+            msgDiv.textContent = message;
+            messagesContainer.appendChild(msgDiv);
+            messagesContainer.scrollTop = messagesContainer.scrollHeight;
+        }
+    
+        function handleChatError(retry, errorMessage) {
+            // Clear any previous error options
+            var existingErrorOptions = document.getElementById("error-options");
+            if (existingErrorOptions) {
+                existingErrorOptions.remove();
+            }
+
+            var messagesContainer = document.getElementById("messages");
+
+            if (retry) {
+                displayMessage(errorMessage, "bot"); // Display the error message from the backend
+
+                // Create a container for the options
+                var optionsContainer = document.createElement("div");
+                optionsContainer.id = "error-options";
+
+                // Create Continue button
+                var continueButton = document.createElement("button");
+                continueButton.innerText = "Continue";
+                continueButton.onclick = function() {
+                    // Logic for continuing the chat
+                    document.getElementById("user-input").disabled = false;
+                    optionsContainer.remove();
+                };
+
+        // Create Exit button
+        var exitButton = document.createElement("button");
+        exitButton.innerText = "Exit";
+        exitButton.onclick = function() {
+            // Logic for exiting the chat
+            location.reload(); // This will reload the page
+        };    
+        optionsContainer.appendChild(continueButton);
+        optionsContainer.appendChild(exitButton);
+
+        messagesContainer.appendChild(optionsContainer);
+    } else {
+        displayMessage(errorMessage, "bot"); // Display the error message from the backend
+        document.getElementById("user-input").disabled = true;
+    }
+}
+
+    
+        function confirmTermination() {
+            var confirmExit = confirm("Do you really want to exit the chat?");
+            if (confirmExit) {
+                terminateChat();
+            } else {
+                displayMessage("Chat continued.", "bot");
+            }
+        }
+    
+        function terminateChat() {
+            displayMessage("Chat terminated by user.", "bot");
+            document.getElementById("user-input").disabled = true;
+            // Remove the error options if present
+            var errorOptions = document.getElementById("error-options");
+            if (errorOptions) {
+                errorOptions.remove();
+            }
+        }
+    
+        window.onload = function() {
+            loadTopics();
+            adjustChatContainerHeight(); // Adjust at load
+        };
+
+        window.addEventListener('resize', adjustChatContainerHeight);
+
+        window.onload = loadTopics;
+
+
+    </script>
+    
+</body>
+</html>
