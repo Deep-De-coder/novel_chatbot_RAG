@@ -8,17 +8,7 @@ This project is a Retrieval-Augmented Generation (RAG) chatbot designed to answe
 
 ## Architecture
 
-The architecture diagram is provided as a Mermaid file: [`images/rag_architecture.mmd`](images/rag_architecture.mmd).
-
-> **Note:** GitHub does not render Mermaid diagrams in Markdown by default. To view the diagram as an image:
-> 1. Use an online Mermaid renderer (e.g., [mermaid.live](https://mermaid.live/)) and paste the contents of the `.mmd` file.
-> 2. Or, use the Mermaid CLI to convert it to PNG/SVG:
->    ```bash
->    npm install -g @mermaid-js/mermaid-cli
->    mmdc -i images/rag_architecture.mmd -o images/rag_architecture.png
->    ```
-> 3. Once converted, you can add the PNG/SVG to the repo for direct display in the README.
-
+![RAG Architecture](images/rag_architecture.png)
 *RAG pipeline: User query → Preprocessing → Topic/Chit-chat classification → Document retrieval → RAG answer synthesis → Response*
 
 ---
@@ -39,9 +29,11 @@ The architecture diagram is provided as a Mermaid file: [`images/rag_architectur
 ### Chatbot Interface
 ![Chatbot Interface](images/chat_interface.png)
 
-### Visualization Page
-![Visualization](images/visualization1.png)
-![Visualization](images/visualization2.png)
+### Visualization: Response Time per Query
+![Visualization Response Time](images/visualization1.png)
+
+### Visualization: Documents Retrieved Per Query
+![Visualization Documents Retrieved](images/visualization2.png)
 
 ---
 
