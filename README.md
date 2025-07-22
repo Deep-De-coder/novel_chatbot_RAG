@@ -4,6 +4,15 @@
 
 This project is a Retrieval-Augmented Generation (RAG) chatbot designed to answer questions about classic novels and engage in general chit-chat. It leverages a combination of information retrieval, machine learning, and large language models to provide contextually relevant answers based on a corpus of novels. The system is built with Flask for the web interface and uses various NLP and ML libraries for backend processing.
 
+---
+
+## Architecture
+
+![RAG Architecture](images/rag_architecture.png)
+*RAG pipeline: User query → Preprocessing → Topic/Chit-chat classification → Document retrieval → RAG answer synthesis → Response*
+
+---
+
 ## Features
 
 - **Chatbot Interface:** Web-based chat interface for user interaction.
@@ -12,6 +21,18 @@ This project is a Retrieval-Augmented Generation (RAG) chatbot designed to answe
 - **Topic Selection:** Users can select topics to focus the retrieval process.
 - **Visualization:** Provides visual analytics of chatbot usage and response times.
 - **Logging:** Stores chat logs and analytics in a local SQLite database.
+
+---
+
+## Screenshots
+
+### Chatbot Interface
+![Chatbot Interface](images/chat_interface.png)
+
+### Visualization Page
+![Visualization](images/visualization.png)
+
+---
 
 ## File Structure
 
@@ -25,6 +46,9 @@ This project is a Retrieval-Augmented Generation (RAG) chatbot designed to answe
 - `mlb.joblib`, `tfidf_vectorizer.joblib`, `rf_classifier.joblib`: Saved ML models and vectorizers.
 - `chatbot.db`: SQLite database for chat logs.
 - `templates/`: HTML templates for the web interface.
+- `images/`: Screenshots and diagrams for documentation.
+
+---
 
 ## Installation
 
@@ -58,6 +82,8 @@ bs4
 4. **Prepare data and models:**
    - Ensure `novels_preprocessed_data.csv` and model files (`mlb.joblib`, `tfidf_vectorizer.joblib`, `rf_classifier.joblib`) are present. If not, run `novels_extraction.py` and `Classifier.py`.
 
+---
+
 ## Usage
 
 1. **Run the Flask app:**
@@ -74,6 +100,8 @@ bs4
    - Select topics if desired.
    - View analytics via the visualization page.
 
+---
+
 ## API Endpoints
 
 - `/chat` (POST): Main chat endpoint. Expects JSON `{ "query": "...", "topics": [ ... ] }`.
@@ -82,6 +110,8 @@ bs4
 - `/data` (GET): Returns analytics data.
 - `/visualization` (GET): Visualization page.
 - `/` (GET): Main chat interface.
+
+---
 
 ## Credits
 
