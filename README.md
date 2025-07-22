@@ -40,7 +40,8 @@ The architecture diagram is provided as a Mermaid file: [`images/rag_architectur
 ![Chatbot Interface](images/chat_interface.png)
 
 ### Visualization Page
-![Visualization](images/visualization.png)
+![Visualization](images/visualization1.png)
+![Visualization](images/visualization2.png)
 
 ---
 
