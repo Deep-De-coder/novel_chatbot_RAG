@@ -1,0 +1,9 @@
+graph TD
+    A["User Query"] --> B["Preprocessing"]
+    B --> C{"Classify Query"}
+    C -- "Chit-chat" --> D["BlenderBot API"]
+    C -- "Novel-related" --> E["Topic Selection"]
+    E --> F["Document Retrieval"]
+    F --> G["RAG (OpenAI API)"]
+    D --> H["Response"]
+    G --> H["Response"] 
